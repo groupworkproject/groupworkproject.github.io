@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="32px" viewBox="0 0 40 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Oval" fill-rule="nonzero">
+            <path d="M33.5,21.75 C33.5,19.6785 31.821,18 29.75,18 C27.6785,18 26,19.6785 26,21.75 C26,23.8215 27.6785,25.5 29.75,25.5 C31.821,25.5 33.5,23.8215 33.5,21.75" id="Fill-5" fill="#FF22B1"></path>
+            <path d="M32.0015,27.9985 L32.0005,27.9985 L8,28 C5.7945,28 4,26.2055 4,24 L4,8 L32,8 C34.2055,8 36,9.7945 36,12 L36.0015,23.9985 C36.0015,26.204 34.207,27.9985 32.0015,27.9985 Z M40,12 C40,7.589 36.411,4 32,4 L15.8985,4 C15.432,1.725 13.4075,0 11,0 L5,0 C2.25,0 0,2.25 0,5 L0,6 L0,24 C0,28.411 3.589,32 8,32 L28.587,32 L32.0015,31.9985 C36.4125,31.9985 40.0015,28.4095 40.0015,23.9975 L40,12 Z" id="Fill-7" fill="#1D1C39"></path>
+        </g>
+    </g>
+</svg>

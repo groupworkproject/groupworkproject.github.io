@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Enterprise-team-illustration</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 400 2.03351514e-13 400 400 0 400"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Enterprise-team-illustration">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Rectangle-Copy" fill="#FFEAB6" xlink:href="#path-1"></use>
+            <g id="Group-16" mask="url(#mask-2)">
+                <g transform="translate(35.000000, 35.000000)" id="Group-26">
+                    <g>
+                        <ellipse id="Oval" fill="#59C894" fill-rule="nonzero" cx="164.677801" cy="106.363695" rx="10.9724635" ry="11.022452"></ellipse>
+                        <ellipse id="Oval-Copy-38" fill="#59C894" fill-rule="nonzero" cx="164.677801" cy="224.620917" rx="10.9724635" ry="11.022452"></ellipse>
+                        <ellipse id="Oval-Copy-39" fill="#59C894" fill-rule="nonzero" cx="223.538255" cy="165.492306" rx="10.9724635" ry="11.022452"></ellipse>
+                        <ellipse id="Oval-Copy-40" fill="#59C894" fill-rule="nonzero" cx="106.695861" cy="165.492306" rx="10.9724635" ry="11.022452"></ellipse>
+                        <ellipse id="Oval-Copy-39" fill="#59C894" fill-rule="nonzero" cx="206.119856" cy="124.874388" rx="10.9724635" ry="11.022452"></ellipse>
+                        <ellipse id="Oval-Copy-43" fill="#59C894" fill-rule="nonzero" opacity="0.300000012" cx="254.286253" cy="129.309126" rx="15.3650347" ry="15.4350349"></ellipse>
+                        <ellipse id="Oval-Copy-51" fill="#59C894" fill-rule="nonzero" cx="304.367523" cy="169.282637" rx="25.9072056" ry="26.0252339"></ellipse>
+                        <ellipse id="Oval-Copy-52" fill="#59C894" fill-rule="nonzero" cx="270.099509" cy="70.1805155" rx="25.9072056" ry="26.0252339"></ellipse>
+                        <ellipse id="Oval-Copy-53" fill="#59C894" fill-rule="nonzero" cx="164.677801" cy="26.0546865" rx="25.9072056" ry="26.0252339"></ellipse>
+                        <ellipse id="Oval-Copy-54" fill="#59C894" fill-rule="nonzero" cx="61.0131205" cy="70.1805155" rx="25.9072056" ry="26.0252339"></ellipse>
+                        <ellipse id="Oval-Copy-55" fill="#59C894" fill-rule="nonzero" cx="25.9072056" cy="169.282637" rx="25.9072056" ry="26.0252339"></ellipse>
+                        <ellipse id="Oval-Copy-56" fill="#59C894" fill-rule="nonzero" cx="61.0131205" cy="258.156547" rx="25.9072056" ry="26.0252339"></ellipse>
+                        <ellipse id="Oval-Copy-57" fill="#59C894" fill-rule="nonzero" cx="164.677801" cy="304.929926" rx="25.9072056" ry="26.0252339"></ellipse>
+                        <ellipse id="Oval-Copy-58" fill="#59C894" fill-rule="nonzero" cx="270.099509" cy="258.156547" rx="25.9072056" ry="26.0252339"></ellipse>
+                        <ellipse id="Oval-Copy-44" fill="#59C894" fill-rule="nonzero" opacity="0.300000012" cx="202.453913" cy="76.3581316" rx="15.3650347" ry="15.4350349"></ellipse>
+                        <ellipse id="Oval-Copy-45" fill="#59C894" fill-rule="nonzero" opacity="0.300000012" cx="123.387631" cy="77.2406482" rx="15.3650347" ry="15.4350349"></ellipse>
+                        <ellipse id="Oval-Copy-46" fill="#59C894" fill-rule="nonzero" opacity="0.300000012" cx="74.190834" cy="128.42661" rx="15.3650347" ry="15.4350349"></ellipse>
+                        <ellipse id="Oval-Copy-47" fill="#59C894" fill-rule="nonzero" opacity="0.300000012" cx="75.0693483" cy="202.558003" rx="15.3650347" ry="15.4350349"></ellipse>
+                        <ellipse id="Oval-Copy-48" fill="#59C894" fill-rule="nonzero" opacity="0.300000012" cx="126.901688" cy="255.508998" rx="15.3650347" ry="15.4350349"></ellipse>
+                        <ellipse id="Oval-Copy-49" fill="#59C894" fill-rule="nonzero" opacity="0.300000012" cx="203.332427" cy="255.508998" rx="15.3650347" ry="15.4350349"></ellipse>
+                        <ellipse id="Oval-Copy-50" fill="#59C894" fill-rule="nonzero" opacity="0.300000012" cx="252.529224" cy="203.440519" rx="15.3650347" ry="15.4350349"></ellipse>
+                        <ellipse id="Oval-Copy-41" fill="#59C894" fill-rule="nonzero" cx="205.089456" cy="206.088069" rx="10.9724635" ry="11.022452"></ellipse>
+                        <ellipse id="Oval-Copy-40" fill="#59C894" fill-rule="nonzero" cx="122.509117" cy="125.77906" rx="10.9724635" ry="11.022452"></ellipse>
+                        <ellipse id="Oval-Copy-42" fill="#59C894" fill-rule="nonzero" cx="122.509117" cy="206.088069" rx="10.9724635" ry="11.022452"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

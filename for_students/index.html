@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://www.teamwork.com/?partner=eefagt8nl5 -->
+<html lang="&quot;en-US&quot;" class="mdl-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="icon" type="image/png" href="https://www.teamwork.com/app/themes/teamwork-theme/dist/images/favicon.ico">
+
+  <!-- critical css -->
+  <style>@charset  "UTF-8";@font-face{font-family:'FaktSoft';font-style:normal;font-weight:100;src:url(/app/themes/teamwork-theme/dist/fonts/fakt/Thin/FaktSoft-Thin.woff),url(/app/themes/teamwork-theme/dist/fonts/fakt/Thin/FaktSoft-Thin.ttf),url(/app/themes/teamwork-theme/dist/fonts/fakt/Thin/FaktSoft-Thin.eot)}@font-face{font-family:'FaktSoft';font-style:italic;font-weight:100;src:url(/app/themes/teamwork-theme/dist/fonts/fakt/ThinItalic/FaktSoft-ThinItalic.woff),url(/app/themes/teamwork-theme/dist/fonts/fakt/ThinItalic/FaktSoft-ThinItalic.ttf),url(/app/themes/teamwork-theme/dist/fonts/fakt/ThinItalic/FaktSoft-ThinItalic.eot)}@font-face{font-family:'FaktSoft';font-style:normal;font-weight:200;src:url(/app/themes/teamwork-theme/dist/fonts/fakt/Light/FaktSoft-Light.woff),url(/app/themes/teamwork-theme/dist/fonts/fakt/Light/FaktSoft-Light.ttf),url(/app/themes/teamwork-theme/dist/fonts/fakt/Light/FaktSoft-Light.eot)}@font-face{font-family:'FaktSoft';font-style:italic;font-weight:200;src:url(/app/themes/teamwork-theme/dist/fonts/fakt/LightItalic/FaktSoft-LightItalic.woff),url(/app/themes/teamwork-theme/dist/fonts/fakt/LightItalic/FaktSoft-LightItalic.ttf),url(/app/themes/teamwork-theme/dist/fonts/fakt/LightItalic/FaktSoft-LightItalic.eot)}@font-face{font-family:'FaktSoft';font-style:normal;font-weight:300;src:url(/app/themes/teamwork-theme/dist/fonts/fakt/Blond/FaktSoft-Blond.woff),url(/app/themes/teamwork-theme/dist/fonts/fakt/Blond/FaktSoft-Blond.ttf),url(/app/themes/teamwork-theme/dist/fonts/fakt/Blond/FaktSoft-Blond.eot)}@font-face{font-family:'FaktSoft';font-style:italic;font-weight:300;src:url(/app/themes/teamwork-theme/dist/fonts/fakt/BlondItalic/FaktSoft-BlondItalic.woff),url(/app/themes/teamwork-theme/dist/fonts/fakt/BlondItalic/FaktSoft-BlondItalic.ttf),url(/app/themes/teamwork-theme/dist/fonts/fakt/BlondItalic/FaktSoft-BlondItalic.eot)}@font-face{font-family:'FaktSoft';font-style:normal;font-weight:400;src:url(/app/themes/teamwork-theme/dist/fonts/fakt/Normal/FaktSoft-Normal.woff),url(/app/themes/teamwork-theme/dist/fonts/fakt/Normal/FaktSoft-Normal.ttf),url(/app/themes/teamwork-theme/dist/fonts/fakt/Normal/FaktSoft-Normal.eot)}@font-face{font-family:'FaktSoft';font-style:italic;font-weight:400;src:url(/app/themes/teamwork-theme/dist/fonts/fakt/NormalItalic/FaktSoft-NormalItalic.woff),url(/app/themes/teamwork-theme/dist/fonts/fakt/NormalItalic/FaktSoft-NormalItalic.ttf),url(/app/themes/teamwork-theme/dist/fonts/fakt/NormalItalic/FaktSoft-NormalItalic.eot)}@font-face{font-family:'FaktSoft';font-style:normal;font-weight:500;src:url(/app/themes/teamwork-theme/dist/fonts/fakt/Medium/FaktSoft-Medium.woff),url(/app/themes/teamwork-theme/dist/fonts/fakt/Medium/FaktSoft-Medium.ttf),url(/app/themes/teamwork-theme/dist/fonts/fakt/Medium/FaktSoft-Medium.eot)}@font-face{font-family:'FaktSoft';font-style:italic;font-weight:500;src:url(/app/themes/teamwork-theme/dist/fonts/fakt/MediumItalic/FaktSoft-MediumItalic.woff),url(/app/themes/teamwork-theme/dist/fonts/fakt/MediumItalic/FaktSoft-MediumItalic.ttf),url(/app/themes/teamwork-theme/dist/fonts/fakt/MediumItalic/FaktSoft-MediumItalic.eot)}@font-face{font-family:'FaktSoft';font-style:normal;font-weight:600;src:url(/app/themes/teamwork-theme/dist/fonts/fakt/SemiBold/FaktSoft-SemiBold.woff),url(/app/themes/teamwork-theme/dist/fonts/fakt/SemiBold/FaktSoft-SemiBold.ttf),url(/app/themes/teamwork-theme/dist/fonts/fakt/SemiBold/FaktSoft-SemiBold.eot)}@font-face{font-family:'FaktSoft';font-style:italic;font-weight:700;src:url(/app/themes/teamwork-theme/dist/fonts/fakt/SemiBoldItalic/FaktSoft-SemiBoldItalic.woff),url(/app/themes/teamwork-theme/dist/fonts/fakt/SemiBoldItalic/FaktSoft-SemiBoldItalic.ttf),url(/app/themes/teamwork-theme/dist/fonts/fakt/SemiBoldItalic/FaktSoft-SemiBoldItalic.eot)}@font-face{font-family:'FaktSoft';font-style:normal;font-weight:700;src:url(/app/themes/teamwork-theme/dist/fonts/fakt/Bold/FaktSoft-Bold.woff),url(/app/themes/teamwork-theme/dist/fonts/fakt/Bold/FaktSoft-Bold.ttf),url(/app/themes/teamwork-theme/dist/fonts/fakt/Bold/FaktSoft-Bold.eot)}@font-face{font-family:'FaktSoft';font-style:italic;font-weight:700;src:url(/app/themes/teamwork-theme/dist/fonts/fakt/BoldItalic/FaktSoft-BoldItalic.woff),url(/app/themes/teamwork-theme/dist/fonts/fakt/BoldItalic/FaktSoft-BoldItalic.ttf),url(/app/themes/teamwork-theme/dist/fonts/fakt/BoldItalic/FaktSoft-BoldItalic.eot)}@font-face{font-family:'FaktSoft';font-style:normal;font-weight:800;src:url(/app/themes/teamwork-theme/dist/fonts/fakt/Black/FaktSoft-Black.woff),url(/app/themes/teamwork-theme/dist/fonts/fakt/Black/FaktSoft-Black.ttf),url(/app/themes/teamwork-theme/dist/fonts/fakt/Black/FaktSoft-Black.eot)}@font-face{font-family:'FaktSoft';font-style:italic;font-weight:800;src:url(/app/themes/teamwork-theme/dist/fonts/fakt/BlackItalic/FaktSoft-BlackItalic.woff),url(/app/themes/teamwork-theme/dist/fonts/fakt/BlackItalic/FaktSoft-BlackItalic.ttf),url(/app/themes/teamwork-theme/dist/fonts/fakt/BlackItalic/FaktSoft-BlackItalic.eot)}:root{--blue:#4da2f8;--indigo:#6a84ed;--purple:#895ef7;--pink:#e83e8c;--red:#f03063;--orange:#ff7641;--yellow:#ffc63c;--green:#79e3aa;--teal:#1fcbdc;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#1d1c39;--secondary:#6c757d;--success:#79e3aa;--info:#895ef7;--warning:#ff7641;--danger:#f03063;--light:#f8f9fa;--dark:#343a40;--inverse:#1d1c39;--tw-slate:#1d1c39;--slate-40:#494e6a;--tw-pink:#ff22b1;--slate-60:#373753;--pink-60:#ff61c7;--purple:#895ef7;--indigo:#6a84ed;--indigo-80:#4461d7;--blue:#4da2f8;--teal:#1fcbdc;--green:#79e3aa;--green-40:#85f1b8;--yellow:#ffc63c;--yellow-40:#ffd56a;--orange:#ff7641;--red:#f03063;--neutral-20:#f5f7fa;--neutral:#e1e6ee;--white:#fff;--black:#000;--brand1:#1d1c39;--brand2:#fec601;--brand3:#ea7317;--brand4:#3da5d9;--brand5:#2364aa;--breakpoint-xs:0;--breakpoint-sm:768px;--breakpoint-md:992px;--breakpoint-lg:1280px;--breakpoint-xl:1440px;--font-family-sans-serif:"FaktSoft",Arial,sans-serif;--font-family-monospace:Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}*,*::before,*::after{-webkit-box-sizing:border-box;box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar}@-ms-viewport{width:device-width}header,nav{display:block}body{margin:0;font-family:"FaktSoft",Arial,sans-serif;font-size:1.2rem;font-weight:400;line-height:1.6;color:#212529;text-align:left;background-color:#fff}h5{margin-top:0;margin-bottom:1rem}p{margin-top:0;margin-bottom:1rem}ul{margin-top:0;margin-bottom:1rem}a{color:#4da2f8;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}img{vertical-align:middle;border-style:none}svg:not(:root){overflow:hidden}button{border-radius:0}input,button{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button,input{overflow:visible}button{text-transform:none}button,html [type="button"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner{padding:0;border-style:none}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}[hidden]{display:none!important}h5{margin-bottom:1rem;font-family:inherit;font-weight:300;line-height:1.1;color:inherit}h5{font-size:1.5rem}.container{width:100%;padding-right:12px;padding-left:12px;margin-right:auto;margin-left:auto}@media (min-width:768px){.container{max-width:744px}}@media (min-width:992px){.container{max-width:964px}}@media (min-width:1280px){.container{max-width:1164px}}.row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-12px;margin-left:-12px}.col-sm-10,.col-md-1,.col-md-2,.col-md-4,.col-md-10,.col-lg-2,.col-lg-8{position:relative;width:100%;min-height:1px;padding-right:12px;padding-left:12px}@media (min-width:768px){.col-sm-10{-webkit-box-flex:0;-ms-flex:0 0 83.33333%;flex:0 0 83.33333%;max-width:83.33333%}.offset-sm-1{margin-left:8.33333%}}@media (min-width:992px){.col-md-1{-webkit-box-flex:0;-ms-flex:0 0 8.33333%;flex:0 0 8.33333%;max-width:8.33333%}.col-md-2{-webkit-box-flex:0;-ms-flex:0 0 16.66667%;flex:0 0 16.66667%;max-width:16.66667%}.col-md-4{-webkit-box-flex:0;-ms-flex:0 0 33.33333%;flex:0 0 33.33333%;max-width:33.33333%}.col-md-10{-webkit-box-flex:0;-ms-flex:0 0 83.33333%;flex:0 0 83.33333%;max-width:83.33333%}}@media (min-width:1280px){.col-lg-2{-webkit-box-flex:0;-ms-flex:0 0 16.66667%;flex:0 0 16.66667%;max-width:16.66667%}.col-lg-8{-webkit-box-flex:0;-ms-flex:0 0 66.66667%;flex:0 0 66.66667%;max-width:66.66667%}}.card{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid rgba(0,0,0,.125);border-radius:8px}.media{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.media-body{-webkit-box-flex:1;-ms-flex:1;flex:1}.close{float:right;font-size:1.8rem;font-weight:700;line-height:1;color:#000;text-shadow:0 1px 0 #fff;opacity:.5}button.close{padding:0;background-color:transparent;border:0;-webkit-appearance:none}.bg-neutral-20{background-color:#f5f7fa!important}.bg-white{background-color:#fff!important}.bg-white{background-color:#fff!important}.clearfix::after{display:block;clear:both;content:""}.d-none{display:none!important}.d-block{display:block!important}@media (min-width:992px){.d-md-none{display:none!important}.d-md-block{display:block!important}}@media (min-width:1280px){.d-lg-block{display:block!important}}.align-self-center{-ms-flex-item-align:center!important;align-self:center!important}.position-relative{position:relative!important}.position-absolute{position:absolute!important}.h-100{height:100%!important}.mt-1{margin-top:0.5rem!important}.ml-1{margin-left:0.5rem!important}.px-0{padding-right:0!important}.px-0{padding-left:0!important}.p-2{padding:1.5rem!important}.pt-2{padding-top:1.5rem!important}.pb-2{padding-bottom:1.5rem!important}.p-3{padding:3rem!important}.pt-3{padding-top:3rem!important}.text-center{text-align:center!important}.text-slate-40{color:#494e6a!important}.text-indigo-80{color:#4461d7!important}html{color:rgba(0,0,0,.87);font-size:1em;line-height:1.4}img,svg{vertical-align:middle}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}html{width:100%;height:100%;-ms-touch-action:manipulation;touch-action:manipulation}body{width:100%;min-height:100%;margin:0}*[hidden]{display:none!important}svg:not(.keep-colors){fill:currentColor}.text-slate-20{color:#727491!important}.text-slate-40{color:#494e6a!important}.text-indigo-80{color:#4461d7!important}.bg-neutral-20{background-color:#f5f7fa!important}.bg-neutral-30{background-color:#eef1f6!important}.bg-white{background-color:#fff!important}html,body{background:#f5f7fa;font-family:'FaktSoft',Arial,Helvetica,'sans-serif';font-size:14px;font-weight:400;line-height:1.6}a{color:#373753}.chevron{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTBweCIgaGVpZ2h0PSI2cHgiIHZpZXdCb3g9IjAgMCAxMCA2IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA1Mi40ICg2NzM3OCkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+aWNvbi9zbWFsbC8gY2hldnJvbi8gZG93biBjaGV2cm9uLyBkb3duLzwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJtYWluLW1lbnUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zODcuMDAwMDAwLCAtMzYuMDAwMDAwKSI+CiAgICAgICAgICAgIDxnIGlkPSJoZWFkZXIiPgogICAgICAgICAgICAgICAgPGcgaWQ9InRleHQtbGlua3MiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMxNS4wMDAwMDAsIDMxLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxnIGlkPSJzbWFsbC8tY2hldnJvbi8tZG93bi8iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDY5LjAwMDAwMCwgMC4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxnIGlkPSJpY29uL3NtYWxsLy1jaGV2cm9uLy1kb3duLWNoZXZyb24vLWRvd24vIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cG9seWdvbiBpZD0iaWNvbi1jb250YWluZXIiIGZpbGw9IiNGRkZGRkYiIG9wYWNpdHk9IjAiIHBvaW50cz0iMCAxNiAxNiAxNiAxNiAwIDAgMCI+PC9wb2x5Z29uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMS43MDQ3NDAxLDUuMjM1MDMyMzUgQzExLjk4OTE0ODksNC45MzM4OTM2NCAxMi40NjM4Mjg5LDQuOTIwMzMxMzYgMTIuNzY0OTY3Niw1LjIwNDc0MDE0IEMxMy4wNjYxMDY0LDUuNDg5MTQ4OTIgMTMuMDc5NjY4Niw1Ljk2MzgyODk0IDEyLjc5NTI1OTksNi4yNjQ5Njc2NSBMOC41NDUyNTk4NiwxMC43NjQ5Njc2IEM4LjI0OTI5MzIsMTEuMDc4MzQ0MSA3Ljc1MDcwNjgsMTEuMDc4MzQ0MSA3LjQ1NDc0MDE0LDEwLjc2NDk2NzYgTDMuMjA0NzQwMTQsNi4yNjQ5Njc2NSBDMi45MjAzMzEzNiw1Ljk2MzgyODk0IDIuOTMzODkzNjQsNS40ODkxNDg5MiAzLjIzNTAzMjM1LDUuMjA0NzQwMTQgQzMuNTM2MTcxMDYsNC45MjAzMzEzNiA0LjAxMDg1MTA4LDQuOTMzODkzNjQgNC4yOTUyNTk4Niw1LjIzNTAzMjM1IEw4LDkuMTU3Njk4MzggTDExLjcwNDc0MDEsNS4yMzUwMzIzNSBaIiBpZD0iaWNvbi1zaGFwZSIgZmlsbD0iIzcyNzQ5MSIgZmlsbC1ydWxlPSJub256ZXJvIj48L3BhdGg+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICAgICAgPGcgaWQ9IlBhZ2UiPjwvZz4KICAgIDwvZz4KPC9zdmc+);background-size:100% 100%;display:inline-block;height:6px;margin-left:4px;margin-top:6px;position:relative;vertical-align:top;width:10px}.cta-notice{padding:.8rem 0!important}.cta-notice .close{opacity:.3}@media (max-width:1279.98px){.container{padding-left:28px;padding-right:28px}}h5{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-font-variant-ligatures:common-ligatures;font-variant-ligatures:common-ligatures;line-height:1;margin-bottom:2rem}p{font-size:1.143rem}.font-size--32{font-size:2.286rem}.font-size--18{font-size:1.286rem}.font-size--16{font-size:1.143rem}.font-weight-500{font-weight:500}.line-height--base{line-height:1.6}@media (max-width:991.98px){.font-size--32{font-size:1.8rem}.font-size--18{font-size:1.143rem}.font-size--16{font-size:1rem}}input:-webkit-autofill{-webkit-box-shadow:0 0 0 100px #fff inset!important;box-shadow:0 0 0 100px #fff inset}.megamenu-wrapper{position:absolute;width:100%;z-index:99}.megamenu--dark .megamenu-primary__label{color:#373753}.megamenu--dark .megamenu-primary__label .chevron{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTBweCIgaGVpZ2h0PSI2cHgiIHZpZXdCb3g9IjAgMCAxMCA2IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA1Mi40ICg2NzM3OCkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+aWNvbi9zbWFsbC8gY2hldnJvbi8gZG93biBjaGV2cm9uLyBkb3duLzwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJtYWluLW1lbnUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zODcuMDAwMDAwLCAtMzYuMDAwMDAwKSI+CiAgICAgICAgICAgIDxnIGlkPSJoZWFkZXIiPgogICAgICAgICAgICAgICAgPGcgaWQ9InRleHQtbGlua3MiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMxNS4wMDAwMDAsIDMxLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxnIGlkPSJzbWFsbC8tY2hldnJvbi8tZG93bi8iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDY5LjAwMDAwMCwgMC4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxnIGlkPSJpY29uL3NtYWxsLy1jaGV2cm9uLy1kb3duLWNoZXZyb24vLWRvd24vIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cG9seWdvbiBpZD0iaWNvbi1jb250YWluZXIiIGZpbGw9IiNGRkZGRkYiIG9wYWNpdHk9IjAiIHBvaW50cz0iMCAxNiAxNiAxNiAxNiAwIDAgMCI+PC9wb2x5Z29uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMS43MDQ3NDAxLDUuMjM1MDMyMzUgQzExLjk4OTE0ODksNC45MzM4OTM2NCAxMi40NjM4Mjg5LDQuOTIwMzMxMzYgMTIuNzY0OTY3Niw1LjIwNDc0MDE0IEMxMy4wNjYxMDY0LDUuNDg5MTQ4OTIgMTMuMDc5NjY4Niw1Ljk2MzgyODk0IDEyLjc5NTI1OTksNi4yNjQ5Njc2NSBMOC41NDUyNTk4NiwxMC43NjQ5Njc2IEM4LjI0OTI5MzIsMTEuMDc4MzQ0MSA3Ljc1MDcwNjgsMTEuMDc4MzQ0MSA3LjQ1NDc0MDE0LDEwLjc2NDk2NzYgTDMuMjA0NzQwMTQsNi4yNjQ5Njc2NSBDMi45MjAzMzEzNiw1Ljk2MzgyODk0IDIuOTMzODkzNjQsNS40ODkxNDg5MiAzLjIzNTAzMjM1LDUuMjA0NzQwMTQgQzMuNTM2MTcxMDYsNC45MjAzMzEzNiA0LjAxMDg1MTA4LDQuOTMzODkzNjQgNC4yOTUyNTk4Niw1LjIzNTAzMjM1IEw4LDkuMTU3Njk4MzggTDExLjcwNDc0MDEsNS4yMzUwMzIzNSBaIiBpZD0iaWNvbi1zaGFwZSIgZmlsbD0iIzcyNzQ5MSIgZmlsbC1ydWxlPSJub256ZXJvIj48L3BhdGg+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICAgICAgPGcgaWQ9IlBhZ2UiPjwvZz4KICAgIDwvZz4KPC9zdmc+)}.megamenu--dark .logo{background-image:url(/app/themes/teamwork-theme/dist/images/twork-slate.svg)}.megamenu--dark .megamenu-burger-icon{background-color:#373753}.megamenu a{font-size:16px;line-height:20px}.megamenu-logo-wrapper{width:100%}.megamenu-logo-wrapper .logo{background-position:center;background-repeat:no-repeat;background-size:100% auto;display:inline-block;height:30px;margin:20px 28px 10px;vertical-align:middle;width:139px}.megamenu-burger{float:right;line-height:1.25;padding:20px 28px}.megamenu-burger-icon{border-radius:1px;display:inline-block;height:2px;position:relative;vertical-align:middle;width:20px}.megamenu-burger-icon::after,.megamenu-burger-icon::before{background-color:inherit;border-radius:inherit;content:'';height:100%;position:absolute;-webkit-transform-origin:50% 1px;-o-transform-origin:50% 1px;transform-origin:50% 1px;width:100%}.megamenu-burger-icon::before{top:-6px}.megamenu-burger-icon::after{bottom:-6px}.megamenu-primary{left:-10000px;list-style-type:none;opacity:0;padding:0;position:absolute;width:100%;z-index:-100}.megamenu-primary__link{float:none;overflow-x:hidden;position:relative}.megamenu-primary__label{color:inherit;display:inline-block;float:none;font-family:inherit;font-size:1.143rem;padding:30px 20px;width:100%}.megamenu-dropdown-panel{z-index:1}.megamenu-dropdown-panel span{z-index:2}.megamenu-sub__link{color:#727491;font-size:1rem;letter-spacing:0;margin-top:-1px;text-transform:none}.icons--products{fill:#1d1c39}.megamenu-sub__label{color:#1d1c39;display:inline-block;font-family:inherit;font-size:inherit;font-weight:500;width:100%}.megamenu-dropdown-wrapper{border-bottom:1px solid #e7ebf1;display:none;left:0;position:absolute;top:80px;width:100%;z-index:99}.megamenu-dropdown .card{border:0;border-radius:4px;color:#727491;font-size:1rem}.megamenu-dropdown .card h5{color:#1d1c39;margin-bottom:0;margin-left:5px}.megamenu-dropdown .card .divider{background:#eef1f6;border-radius:2px;height:2px;margin:10px 0 15px;max-width:40px}.megamenu-dropdown a{color:#4461d7;font-weight:500}.megamenu-dropdown a div{font-weight:300}.megamenu-dropdown .megamenu-sideblock{background:#f5f7fa;font-weight:300}.megamenu-dropdown .megamenu-bottom-link{margin-left:20px}@media (min-width:992px){.megamenu-burger{display:none}.megamenu-logo-wrapper{display:inline-block;width:auto}.megamenu-logo-wrapper .logo{margin:25px 0}.megamenu-primary{display:inline-block;margin:0;margin-left:45px;opacity:1;padding:0;position:static;vertical-align:top;width:auto;z-index:200}.megamenu-primary__link{background-color:transparent;border-bottom:0;display:block;float:left;font-size:.875rem;overflow-x:visible;position:static;text-transform:none}.megamenu-dropdown .card{padding:30px 20px}.megamenu-dropdown .card h5{font-size:1.4rem}}@media (max-width:1279.98px) and (min-width:768px){.megamenu a.megamenu-primary__label{font-size:13px}}@media (max-width:991.98px){.megamenu a.megamenu-primary__label{font-size:16px}}.mm-newFeature{background:#ff61c7;border-radius:4px;color:#fff;font-size:10px;font-weight:600;left:5px;line-height:18px;padding:.1rem .3rem;position:relative;top:-10px;vertical-align:middle}</style>
+
+  <link rel="stylesheet" href="./index_files/main.css" as="style" onload="this.rel=&#39;stylesheet&#39;">
+  <noscript><link rel="stylesheet" href="/app/themes/teamwork-theme/dist/styles/main.css?v=1.4.4"></noscript>
+
+  <title>Teamwork that works</title>
+
+<!-- Start The SEO Framework by Sybre Waaijer -->
+<meta name="description" content="Teamwork creates tools which, when used together, make teams efficient, organized and happy. Learn more about Teamwork Projects, Teamwork Desk, Teamwork Spaces and Chat now.">
+<meta property="og:image" content="https://website-assets.teamwork.com/offload/app/uploads/2019/02/28115341/teamwork-illustration-3.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Project Management, Help Desk Software, Spaces and Chat | Teamwork">
+<meta property="og:description" content="Teamwork creates tools which, when used together, make teams efficient, organized and happy. Learn more about Teamwork Projects, Teamwork Desk, Teamwork Spaces and Chat now.">
+<meta property="og:url" content="https://www.teamwork.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Project Management, Help Desk Software, Spaces and Chat | Teamwork">
+<meta name="twitter:description" content="Teamwork creates tools which, when used together, make teams efficient, organized and happy. Learn more about Teamwork Projects, Teamwork Desk, Teamwork Spaces and Chat now.">
+<meta name="twitter:image" content="https://website-assets.teamwork.com/offload/app/uploads/2019/02/28115341/teamwork-illustration-3.png">
+<meta name="twitter:image:width" content="1200">
+<meta name="twitter:image:height" content="630">
+<link rel="canonical" href="https://www.teamwork.com/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","url":"https://www.teamwork.com/","potentialAction":{"@type":"SearchAction","target":"https://www.teamwork.com/search/{search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","url":"https://www.teamwork.com/","logo":"https://website-assets.teamwork.com/offload/app/uploads/2019/03/04183535/cropped-favicon.png"}</script>
+<!-- End The SEO Framework by Sybre Waaijer | 0.00597s -->
+
+<link rel="stylesheet" href="./index_files/wp-rest-filter-public.css">
+<link rel="stylesheet" href="./index_files/svgs-attachment.css">
+<script src="./index_files/jquery.js.Без названия"></script>
+<script src="./index_files/wp-rest-filter-public.js.Без названия"></script>
+<link rel="icon" href="https://website-assets.teamwork.com/offload/app/uploads/2019/03/04183535/cropped-favicon-32x32.png" sizes="32x32">
+<link rel="icon" href="https://website-assets.teamwork.com/offload/app/uploads/2019/03/04183535/cropped-favicon-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon-precomposed" href="https://website-assets.teamwork.com/offload/app/uploads/2019/03/04183535/cropped-favicon-180x180.png">
+<meta name="msapplication-TileImage" content="https://website-assets.teamwork.com/offload/app/uploads/2019/03/04183535/cropped-favicon-270x270.png">
+    </head>
+
+  
+
+  <body class="app home page cta-notice--active app-data index-data singular-data page-data page-2-data page-sample-page-data front-page-data" style="zoom: 1;">
+    <!-- Pubble config info -->
+      <div class="wrap" role="document">
+        <div class="content">
+          <main class="main">
+
+       <div class="jumbotron rounded-0 px-0 flex-header flex-background-colour py-0 bg-white  ">
+                
+<div class="container">
+    <div class="row">
+      <div class="col-md-12 text-left offset-md-0">
+      <div class="pt-sm-8 pt-5">
+<div class="row">
+
+<div class="col-sm-6 mt-4 px-sm-2">
+<h1 class="text-slate font-size--64 font-weight-300 mb-1">Teamwork that Works!</h1>
+<p class="mt-1 font-size--20 line-height--base font-weight-300 text-slate-20 mt-2 mr-4">Our software rescues teams from the everyday, freeing them to achieve more.</p>
+
+
+<p class="text-slate-20 font-size--14 mt-2">Sign up for a free 30-day trial (no credit card required!)</p>
+
+</div>
+<div class="col-sm-6">
+
+  <img class="img-fluid" src="forstudents/teamwork.svg" alt="" width="520" height="410">
+  
+  </div>
+</div>
+</div>      </div>
+    </div>
+</div>
+</div>
+
+<div class="bg-neutral-20 pb-3 position-relative">
+ 
+  <!-- abstract svgs for this section -->
+  <svg class="abstract-svg move d-none d-lg-block" style="fill: rgb(137, 94, 247); height: 30px; width: 30px; top: 11%; left: 3.9%; z-index: 1; transform: matrix3d(1, -2.18166e-05, 0, 0, 2.18166e-05, 1, 0, 0, 0, 0, 1, 0, 0.99875, 4.01875, 0, 1);" viewBox="0 0 102 102" preserveAspectRatio="none">
+    <circle id="Oval" cx="50" cy="50" r="50"></circle>
+  </svg>
+  <svg class="abstract-svg move d-none d-lg-block" style="fill: rgb(248, 202, 232); height: 35px; width: 35px; top: 60%; right: 3.9%; z-index: 1; transform: matrix3d(0.999849, -0.017387, 0, 0, 0.017387, 0.999849, 0, 0, 0, 0, 1, 0, 12.9913, -16.975, 0, 1);" viewBox="0 0 102 102" preserveAspectRatio="none">
+    <rect id="Rectangle" x="0" y="0" width="150" height="150"></rect>
+  </svg>
+  <svg class="abstract-svg move d-none d-lg-block" style="fill: rgb(130, 235, 241); height: 35px; width: 35px; top: 40%; left: 8%; z-index: 1; transform: matrix3d(0.99757, -0.0696694, 0, 0, 0.0696694, 0.99757, 0, 0, 0, 0, 1, 0, -15.9813, 8.005, 0, 1);" viewBox="0 0 102 102" preserveAspectRatio="none">
+    <rect id="Rectangle" x="0" y="0" width="50" height="50"></rect>
+  </svg>
+</div>
+
+<div class="bg-neutral-20 py-4 p-lg-4 position-relative">
+<div class="container">
+  <div class="row justify-content-center text-md-center">
+    <div class="col-md-8 text-center">
+      <h2 class="text-slate font-size--48">Built for every team of every size</h2>
+      <p class="font-size--24 text-slate-20 line-height--md">Learn how the Teamwork product suite will help your team deliver high-performance outcomes.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-5 offset-md-1 mt-3">
+      <a class="d-block" href="https://www.teamwork.com/solutions/marketing-teams/">
+        <div class="card card--horizontal-images">
+          <div class="row no-gutters">
+            <div class="col-sm-7">
+              <div class="card-block text-slate-20 p-2 pt-3">
+                <span class="d-none d-sm-block text-slate-20 text-uppercase">Marketing Teams</span>
+                <span class="d-sm-none text-tw-pink text-uppercase">Marketing Teams</span>
+                <p class="card-text font-size--18 line-height--base text-slate-40 mt-2 ml-2">Turn strategies into action and automate your marketing workflows with Teamwork Projects.</p>
+              </div>
+            </div>
+            <div class="col-sm-5 d-none d-sm-block">
+              <figure class="card--horizontal-images__thumb h-100">
+                <img src="./index_files/marketing-teams-illus.svg" data-src="https://s3.amazonaws.com/tw-website-wordpress/offload/app/uploads/2019/02/07132643/marketing-teams-illus.svg" class="card-img-top">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-5 mt-3">
+      <a class="d-block" href="https://www.teamwork.com/solutions/product-teams/">
+        <div class="card card--horizontal-images">
+          <div class="row no-gutters">
+            <div class="col-sm-7">
+              <div class="card-block text-slate-20 p-2 pt-3">
+                <span class="d-none d-sm-block text-slate-20 text-uppercase">Product Teams</span>
+                <span class="d-sm-none text-purple text-uppercase">Product Teams</span>
+                <p class="card-text font-size--18 line-height--base text-slate-40 mt-2 ml-2">Easily manage and execute on product requirements from concept to completion with Teamwork Projects. </p>
+              </div>
+            </div>
+            <div class="col-sm-5 d-none d-sm-block">
+              <figure class="card--horizontal-images__thumb h-100">
+                <img src="./index_files/product-teams-illus.svg" data-src="https://s3.amazonaws.com/tw-website-wordpress/offload/app/uploads/2019/02/07132643/product-teams-illus.svg" class="card-img-top">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-5 offset-md-1 mt-3">
+      <a class="d-block" href="https://www.teamwork.com/solutions/professional-service-teams/">
+        <div class="card card--horizontal-images">
+          <div class="row no-gutters">
+            <div class="col-sm-7">
+              <div class="card-block text-slate-20 p-2 pt-3">
+                <span class="d-none d-sm-block text-slate-20 text-uppercase">Professional Services Teams</span>
+                <span class="d-sm-none text-indigo text-uppercase">Professional Services Teams</span>
+                <p class="card-text font-size--18 line-height--base text-slate-40 mt-2 ml-2">Deliver the high-performance outcomes that matter to your clients with Teamwork Projects.</p>
+              </div>
+            </div>
+            <div class="col-sm-5 d-none d-sm-block">
+              <figure class="card--horizontal-images__thumb h-100">
+                <img src="./index_files/prof-services-teams-illus.svg" data-src="https://s3.amazonaws.com/tw-website-wordpress/offload/app/uploads/2019/02/07132643/prof-services-teams-illus.svg" class="card-img-top">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-5 mt-3">
+      <a class="d-block" href="https://www.teamwork.com/solutions/support-teams/">
+        <div class="card card--horizontal-images">
+          <div class="row no-gutters">
+            <div class="col-sm-7">
+              <div class="card-block text-slate-20 p-2 pt-3">
+                <span class="d-none d-sm-block text-slate-20 text-uppercase">Support Teams</span>
+                <span class="text-yellow d-sm-none text-uppercase">Support Teams</span>
+                <p class="card-text font-size--18 line-height--base text-slate-40 mt-2 ml-2">Build exceptional customer relationships and deliver first-class support with Teamwork Desk.</p>
+              </div>
+            </div>
+            <div class="col-sm-5 d-none d-sm-block">
+              <figure class="card--horizontal-images__thumb h-100">
+                <img src="./index_files/support-teams-illus.svg" data-src="https://s3.amazonaws.com/tw-website-wordpress/offload/app/uploads/2019/02/07132644/support-teams-illus.svg" class="card-img-top">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </a></div><a class="d-block" href="https://www.teamwork.com/solutions/support-teams/">
+    </a>
+  </div>
+  <div class="row">
+    <div class="col-md-10 offset-md-1 mt-3">
+      <a class="d-block" href="https://www.teamwork.com/solutions/enterprise/">
+        <div class="card card--horizontal-images">
+          <div class="row no-gutters">
+            <div class="col-sm-7 p-sm-2">
+              <div class="card-block text-slate-20 p-3">
+                <span class="text-purple text-uppercase">Enterprise</span>
+                <h4 class="text-tw-slate font-size--24 line-height--md font-weight-500 pt-2">Teamwork for Enterprise</h4>
+                <p class="card-text text-slate-40 mb-3 font-size--18 line-height--base">Giving teams the power to scale high performance with enterprise-level security, training and support.</p>
+                <button class="btn btn-solid btn-outline--indigo">Learn more</button>
+              </div>
+            </div>
+            <div class="col-sm-5 d-none d-sm-block">
+            <figure class="card--horizontal-images__thumb h-100">
+              <img class="card-img-top" src="./index_files/enterprise-teams-illustration.svg" data-src="https://s3.amazonaws.com/tw-website-wordpress/offload/app/uploads/2019/01/22155247/enterprise-teams-illustration.svg">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+</div>
+
+<!-- abstract svgs for this section -->
+<svg class="abstract-svg move d-none d-lg-block" style="fill: rgb(251, 180, 35); height: 28px; width: 28px; top: 7.3%; left: 89.3%; z-index: 1; transform: matrix3d(0.996214, -0.087026, 0, 0, 0.087026, 0.996214, 0, 0, 0, 0, 1, 0, -21.9788, -8, 0, 1);" viewBox="0 0 102 102" preserveAspectRatio="none">
+<rect id="Rectangle" x="0" y="0" width="100" height="100"></rect>
+</svg>
+<svg class="abstract-svg move d-none d-lg-block" style="fill: rgb(240, 48, 99); height: 64px; width: 64px; top: 28.3%; left: 2.7%; z-index: 1; transform: matrix3d(0.996198, -0.0870684, 0, 0, 0.0870684, 0.996198, 0, 0, 0, 0, 1, 0, 5.97375, -4.9675, 0, 1);" viewBox="0 0 102 102" preserveAspectRatio="none">
+<circle id="Oval" cx="50" cy="50" r="50"></circle>
+</svg>
+<svg class="abstract-svg move d-none d-lg-block" style="fill: rgb(31, 203, 220); height: 28px; width: 28px; top: 42%; left: 14.2%; z-index: 0; transform: matrix3d(0.997568, -0.0697786, 0, 0, 0.0697786, 0.997568, 0, 0, 0, 0, 1, 0, -21.0038, 17.9613, 0, 1);" viewBox="0 0 102 102" preserveAspectRatio="none">
+<rect id="Rectangle" x="0" y="0" width="100" height="100"></rect>
+</svg>
+<svg class="abstract-svg move d-none d-lg-block" style="fill: rgb(255, 118, 65); height: 20px; width: 20px; top: 77.85%; left: 10.6%; z-index: 1; transform: matrix3d(0.999996, 8.72661e-05, 0, 0, -8.72661e-05, 0.999996, 0, 0, 0, 0, 1, 0, -20.9713, -23.0012, 0, 1);" viewBox="0 0 102 102" preserveAspectRatio="none">
+<circle id="Oval" cx="50" cy="50" r="50"></circle>
+</svg>
+
+</div>
+
+</main></div>
+</div>
+<div class="bg-neutral-20 diagonal py-3 p-lg-3">
+<div class="container">
+<div class="row justify-content-center text-md-center">
+<div class="col-md-8  text-center">
+<h2 class="text-slate font-size--48">You’re in good company</h2>
+<p class="font-size--24 text-slate-20 line-height--md">Trusted by the world’s most innovative businesses – big and small</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-neutral-20">
+<div class="container position-relative pt-0 pb-0">
+<div class="row position-relative z2">
+<div class="col-md-4 mb-3">
+<a href="https://www.teamwork.com/customer-stories/idea-planet/" class="card h-100 card--customer-stories">
+  <div class="card-body text-slate-20 pt-3 px-3 pb-3">
+    <div class="card-block">
+      <span class="story-title text-uppercase">
+        Idea Planet
+      </span>
+      <p class="card-text font-size--20 line-height--md  mt-1 text-slate-60">How Teamwork Projects streamlined Idea Planet’s workflows and communication</p>
+    </div>
+  </div>
+  <figure class="cs-featured-image card--customer-stories__thumb cs-featured-image--red">
+    <img class="img-fluid w-100" src="./index_files/idea-planet-3-440x470.jpg" data-src="https://website-assets.teamwork.com/offload/app/uploads/2019/02/25170816/idea-planet-3-440x470.jpg">
+  </figure>
+  <div class="px-3 py-2 font-size--18 text-indigo-80">Read story ›</div>
+</a>
+</div>
+<div class="col-md-4 mb-3">
+<a href="https://www.teamwork.com/customer-stories/blackboard/" class="card h-100 card--customer-stories">
+  <div class="card-body text-slate-20 pt-3 px-3 pb-3">
+    <div class="card-block">
+      <span class="story-title text-uppercase">
+        Blackboard
+      </span>
+      <p class="card-text font-size--20 line-height--md  mt-1 text-slate-60">Teamwork Projects enables Blackboard to provide a complete educational experience</p>
+    </div>
+  </div>
+  <figure class="cs-featured-image card--customer-stories__thumb cs-featured-image--yellow">
+    <img class="img-fluid w-100" src="./index_files/blackboard-5-440x470.jpg" data-src="https://website-assets.teamwork.com/offload/app/uploads/2019/02/25165727/blackboard-5-440x470.jpg">
+  </figure>
+  <div class="px-3 py-2 font-size--18 text-indigo-80">Read story ›</div>
+</a>
+</div>
+<div class="col-md-4 mb-3">
+<a href="https://www.teamwork.com/customer-stories/strencom/" class="card h-100 card--customer-stories">
+  <div class="card-body text-slate-20 pt-3 px-3 pb-3 z2">
+    <div class="card-block">
+      <span class="story-title text-uppercase">
+        Strencom
+      </span>
+      <p class="card-text font-size--20 line-height--md  mt-1 text-slate-60">Strencom triples their NPS score and improves client satisfaction with Teamwork Projects</p>
+    </div>
+  </div>
+  <figure class="cs-featured-image card--customer-stories__thumb cs-featured-image--teal">
+    <img class="img-fluid w-100" src="./index_files/strencom-2-440x470.jpg" data-src="https://website-assets.teamwork.com/offload/app/uploads/2019/02/25164041/strencom-2-440x470.jpg">
+  </figure>
+  <div class="px-3 py-2 font-size--18 text-indigo-80">Read story ›</div>
+</a>
+</div>
+</div>
+<svg class="abstract-svg d-none d-lg-block" style="fill:#4CA1F8; height:157px; width:182px; top:-15%; left:90%; z-index:0" viewBox="0 0 186 160" preserveAspectRatio="none">
+<g id="dots" transform="translate(54.000000, 0.000000)">
+<path d="M3.66935484,16.4830943 C3.66935484,17.4944237 2.84796976,18.3145492 1.83467742,18.3145492 C0.821385081,18.3145492 0,17.4944237 0,16.4830943 C0,15.4717649 0.821385081,14.6516393 1.83467742,14.6516393 C2.84796976,14.6516393 3.66935484,15.4717649 3.66935484,16.4830943 Z M3.66935484,41.7571721 C3.66935484,42.7685015 2.84796976,43.588627 1.83467742,43.588627 C0.821385081,43.588627 0,42.7685015 0,41.7571721 C0,40.7458427 0.821385081,39.9257172 1.83467742,39.9257172 C2.84796976,39.9257172 3.66935484,40.7458427 3.66935484,41.7571721 Z M3.66935484,67.397541 C3.66935484,68.4088704 2.84796976,69.2289959 1.83467742,69.2289959 C0.821385081,69.2289959 0,68.4088704 0,67.397541 C0,66.3862116 0.821385081,65.5660861 1.83467742,65.5660861 C2.84796976,65.5660861 3.66935484,66.3862116 3.66935484,67.397541 Z M3.66935484,92.6716189 C3.66935484,93.6829483 2.84796976,94.5030738 1.83467742,94.5030738 C0.821385081,94.5030738 0,93.6829483 0,92.6716189 C0,91.6602894 0.821385081,90.8401639 1.83467742,90.8401639 C2.84796976,90.8401639 3.66935484,91.6602894 3.66935484,92.6716189 Z M3.66935484,118.311988 C3.66935484,119.323317 2.84796976,120.143443 1.83467742,120.143443 C0.821385081,120.143443 0,119.323317 0,118.311988 C0,117.300658 0.821385081,116.480533 1.83467742,116.480533 C2.84796976,116.480533 3.66935484,117.300658 3.66935484,118.311988 Z M3.66935484,143.586066 C3.66935484,144.597395 2.84796976,145.41752 1.83467742,145.41752 C0.821385081,145.41752 0,144.597395 0,143.586066 C0,142.574736 0.821385081,141.754611 1.83467742,141.754611 C2.84796976,141.754611 3.66935484,142.574736 3.66935484,143.586066 Z M29.3548387,1.83145492 C29.3548387,2.84278432 28.5334536,3.66290984 27.5201613,3.66290984 C26.506869,3.66290984 25.6854839,2.84278432 25.6854839,1.83145492 C25.6854839,0.820125512 26.506869,0 27.5201613,0 C28.5334536,0 29.3548387,0.820125512 29.3548387,1.83145492 Z M29.3548387,27.4718238 C29.3548387,28.4831532 28.5334536,29.3032787 27.5201613,29.3032787 C26.506869,29.3032787 25.6854839,28.4831532 25.6854839,27.4718238 C25.6854839,26.4604944 26.506869,25.6403689 27.5201613,25.6403689 C28.5334536,25.6403689 29.3548387,26.4604944 29.3548387,27.4718238 Z M29.3548387,52.7459016 C29.3548387,53.757231 28.5334536,54.5773566 27.5201613,54.5773566 C26.506869,54.5773566 25.6854839,53.757231 25.6854839,52.7459016 C25.6854839,51.7345722 26.506869,50.9144467 27.5201613,50.9144467 C28.5334536,50.9144467 29.3548387,51.7345722 29.3548387,52.7459016 Z M29.3548387,78.3862705 C29.3548387,79.3975999 28.5334536,80.2177254 27.5201613,80.2177254 C26.506869,80.2177254 25.6854839,79.3975999 25.6854839,78.3862705 C25.6854839,77.3749411 26.506869,76.5548156 27.5201613,76.5548156 C28.5334536,76.5548156 29.3548387,77.3749411 29.3548387,78.3862705 Z M29.3548387,103.660348 C29.3548387,104.671678 28.5334536,105.491803 27.5201613,105.491803 C26.506869,105.491803 25.6854839,104.671678 25.6854839,103.660348 C25.6854839,102.649019 26.506869,101.828893 27.5201613,101.828893 C28.5334536,101.828893 29.3548387,102.649019 29.3548387,103.660348 Z M29.3548387,128.934426 C29.3548387,129.945756 28.5334536,130.765881 27.5201613,130.765881 C26.506869,130.765881 25.6854839,129.945756 25.6854839,128.934426 C25.6854839,127.923097 26.506869,127.102971 27.5201613,127.102971 C28.5334536,127.102971 29.3548387,127.923097 29.3548387,128.934426 Z M29.3548387,154.574795 C29.3548387,155.586124 28.5334536,156.40625 27.5201613,156.40625 C26.506869,156.40625 25.6854839,155.586124 25.6854839,154.574795 C25.6854839,153.563466 26.506869,152.74334 27.5201613,152.74334 C28.5334536,152.74334 29.3548387,153.563466 29.3548387,154.574795 Z M54.6733871,16.4830943 C54.6733871,17.4944237 53.852002,18.3145492 52.8387097,18.3145492 C51.8254173,18.3145492 51.0040323,17.4944237 51.0040323,16.4830943 C51.0040323,15.4717649 51.8254173,14.6516393 52.8387097,14.6516393 C53.852002,14.6516393 54.6733871,15.4717649 54.6733871,16.4830943 Z M54.6733871,41.7571721 C54.6733871,42.7685015 53.852002,43.588627 52.8387097,43.588627 C51.8254173,43.588627 51.0040323,42.7685015 51.0040323,41.7571721 C51.0040323,40.7458427 51.8254173,39.9257172 52.8387097,39.9257172 C53.852002,39.9257172 54.6733871,40.7458427 54.6733871,41.7571721 Z M54.6733871,67.397541 C54.6733871,68.4088704 53.852002,69.2289959 52.8387097,69.2289959 C51.8254173,69.2289959 51.0040323,68.4088704 51.0040323,67.397541 C51.0040323,66.3862116 51.8254173,65.5660861 52.8387097,65.5660861 C53.852002,65.5660861 54.6733871,66.3862116 54.6733871,67.397541 Z M54.6733871,92.6716189 C54.6733871,93.6829483 53.852002,94.5030738 52.8387097,94.5030738 C51.8254173,94.5030738 51.0040323,93.6829483 51.0040323,92.6716189 C51.0040323,91.6602894 51.8254173,90.8401639 52.8387097,90.8401639 C53.852002,90.8401639 54.6733871,91.6602894 54.6733871,92.6716189 Z M54.6733871,118.311988 C54.6733871,119.323317 53.852002,120.143443 52.8387097,120.143443 C51.8254173,120.143443 51.0040323,119.323317 51.0040323,118.311988 C51.0040323,117.300658 51.8254173,116.480533 52.8387097,116.480533 C53.852002,116.480533 54.6733871,117.300658 54.6733871,118.311988 Z M54.6733871,143.586066 C54.6733871,144.597395 53.852002,145.41752 52.8387097,145.41752 C51.8254173,145.41752 51.0040323,144.597395 51.0040323,143.586066 C51.0040323,142.574736 51.8254173,141.754611 52.8387097,141.754611 C53.852002,141.754611 54.6733871,142.574736 54.6733871,143.586066 Z M79.9919355,1.83145492 C79.9919355,2.84278432 79.1705504,3.66290984 78.1572581,3.66290984 C77.1439657,3.66290984 76.3225806,2.84278432 76.3225806,1.83145492 C76.3225806,0.820125512 77.1439657,0 78.1572581,0 C79.1705504,0 79.9919355,0.820125512 79.9919355,1.83145492 Z M79.9919355,27.4718238 C79.9919355,28.4831532 79.1705504,29.3032787 78.1572581,29.3032787 C77.1439657,29.3032787 76.3225806,28.4831532 76.3225806,27.4718238 C76.3225806,26.4604944 77.1439657,25.6403689 78.1572581,25.6403689 C79.1705504,25.6403689 79.9919355,26.4604944 79.9919355,27.4718238 Z M79.9919355,52.7459016 C79.9919355,53.757231 79.1705504,54.5773566 78.1572581,54.5773566 C77.1439657,54.5773566 76.3225806,53.757231 76.3225806,52.7459016 C76.3225806,51.7345722 77.1439657,50.9144467 78.1572581,50.9144467 C79.1705504,50.9144467 79.9919355,51.7345722 79.9919355,52.7459016 Z M79.9919355,78.3862705 C79.9919355,79.3975999 79.1705504,80.2177254 78.1572581,80.2177254 C77.1439657,80.2177254 76.3225806,79.3975999 76.3225806,78.3862705 C76.3225806,77.3749411 77.1439657,76.5548156 78.1572581,76.5548156 C79.1705504,76.5548156 79.9919355,77.3749411 79.9919355,78.3862705 Z M79.9919355,103.660348 C79.9919355,104.671678 79.1705504,105.491803 78.1572581,105.491803 C77.1439657,105.491803 76.3225806,104.671678 76.3225806,103.660348 C76.3225806,102.649019 77.1439657,101.828893 78.1572581,101.828893 C79.1705504,101.828893 79.9919355,102.649019 79.9919355,103.660348 Z M79.9919355,128.934426 C79.9919355,129.945756 79.1705504,130.765881 78.1572581,130.765881 C77.1439657,130.765881 76.3225806,129.945756 76.3225806,128.934426 C76.3225806,127.923097 77.1439657,127.102971 78.1572581,127.102971 C79.1705504,127.102971 79.9919355,127.923097 79.9919355,128.934426 Z M79.9919355,154.574795 C79.9919355,155.586124 79.1705504,156.40625 78.1572581,156.40625 C77.1439657,156.40625 76.3225806,155.586124 76.3225806,154.574795 C76.3225806,153.563466 77.1439657,152.74334 78.1572581,152.74334 C79.1705504,152.74334 79.9919355,153.563466 79.9919355,154.574795 Z M105.677419,16.4830943 C105.677419,17.4944237 104.856034,18.3145492 103.842742,18.3145492 C102.82945,18.3145492 102.008065,17.4944237 102.008065,16.4830943 C102.008065,15.4717649 102.82945,14.6516393 103.842742,14.6516393 C104.856034,14.6516393 105.677419,15.4717649 105.677419,16.4830943 Z M105.677419,41.7571721 C105.677419,42.7685015 104.856034,43.588627 103.842742,43.588627 C102.82945,43.588627 102.008065,42.7685015 102.008065,41.7571721 C102.008065,40.7458427 102.82945,39.9257172 103.842742,39.9257172 C104.856034,39.9257172 105.677419,40.7458427 105.677419,41.7571721 Z M105.677419,67.397541 C105.677419,68.4088704 104.856034,69.2289959 103.842742,69.2289959 C102.82945,69.2289959 102.008065,68.4088704 102.008065,67.397541 C102.008065,66.3862116 102.82945,65.5660861 103.842742,65.5660861 C104.856034,65.5660861 105.677419,66.3862116 105.677419,67.397541 Z M105.677419,92.6716189 C105.677419,93.6829483 104.856034,94.5030738 103.842742,94.5030738 C102.82945,94.5030738 102.008065,93.6829483 102.008065,92.6716189 C102.008065,91.6602894 102.82945,90.8401639 103.842742,90.8401639 C104.856034,90.8401639 105.677419,91.6602894 105.677419,92.6716189 Z M105.677419,118.311988 C105.677419,119.323317 104.856034,120.143443 103.842742,120.143443 C102.82945,120.143443 102.008065,119.323317 102.008065,118.311988 C102.008065,117.300658 102.82945,116.480533 103.842742,116.480533 C104.856034,116.480533 105.677419,117.300658 105.677419,118.311988 Z M105.677419,143.586066 C105.677419,144.597395 104.856034,145.41752 103.842742,145.41752 C102.82945,145.41752 102.008065,144.597395 102.008065,143.586066 C102.008065,142.574736 102.82945,141.754611 103.842742,141.754611 C104.856034,141.754611 105.677419,142.574736 105.677419,143.586066 Z M130.995968,1.83145492 C130.995968,2.84278432 130.174583,3.66290984 129.16129,3.66290984 C128.147998,3.66290984 127.326613,2.84278432 127.326613,1.83145492 C127.326613,0.820125512 128.147998,0 129.16129,0 C130.174583,0 130.995968,0.820125512 130.995968,1.83145492 Z M130.995968,27.4718238 C130.995968,28.4831532 130.174583,29.3032787 129.16129,29.3032787 C128.147998,29.3032787 127.326613,28.4831532 127.326613,27.4718238 C127.326613,26.4604944 128.147998,25.6403689 129.16129,25.6403689 C130.174583,25.6403689 130.995968,26.4604944 130.995968,27.4718238 Z M130.995968,52.7459016 C130.995968,53.757231 130.174583,54.5773566 129.16129,54.5773566 C128.147998,54.5773566 127.326613,53.757231 127.326613,52.7459016 C127.326613,51.7345722 128.147998,50.9144467 129.16129,50.9144467 C130.174583,50.9144467 130.995968,51.7345722 130.995968,52.7459016 Z M130.995968,78.3862705 C130.995968,79.3975999 130.174583,80.2177254 129.16129,80.2177254 C128.147998,80.2177254 127.326613,79.3975999 127.326613,78.3862705 C127.326613,77.3749411 128.147998,76.5548156 129.16129,76.5548156 C130.174583,76.5548156 130.995968,77.3749411 130.995968,78.3862705 Z M130.995968,103.660348 C130.995968,104.671678 130.174583,105.491803 129.16129,105.491803 C128.147998,105.491803 127.326613,104.671678 127.326613,103.660348 C127.326613,102.649019 128.147998,101.828893 129.16129,101.828893 C130.174583,101.828893 130.995968,102.649019 130.995968,103.660348 Z M130.995968,128.934426 C130.995968,129.945756 130.174583,130.765881 129.16129,130.765881 C128.147998,130.765881 127.326613,129.945756 127.326613,128.934426 C127.326613,127.923097 128.147998,127.102971 129.16129,127.102971 C130.174583,127.102971 130.995968,127.923097 130.995968,128.934426 Z M130.995968,154.574795 C130.995968,155.586124 130.174583,156.40625 129.16129,156.40625 C128.147998,156.40625 127.326613,155.586124 127.326613,154.574795 C127.326613,153.563466 128.147998,152.74334 129.16129,152.74334 C130.174583,152.74334 130.995968,153.563466 130.995968,154.574795 Z M156.314516,16.4830943 C156.314516,17.4944237 155.493131,18.3145492 154.479839,18.3145492 C153.466546,18.3145492 152.645161,17.4944237 152.645161,16.4830943 C152.645161,15.4717649 153.466546,14.6516393 154.479839,14.6516393 C155.493131,14.6516393 156.314516,15.4717649 156.314516,16.4830943 Z M156.314516,41.7571721 C156.314516,42.7685015 155.493131,43.588627 154.479839,43.588627 C153.466546,43.588627 152.645161,42.7685015 152.645161,41.7571721 C152.645161,40.7458427 153.466546,39.9257172 154.479839,39.9257172 C155.493131,39.9257172 156.314516,40.7458427 156.314516,41.7571721 Z M156.314516,67.397541 C156.314516,68.4088704 155.493131,69.2289959 154.479839,69.2289959 C153.466546,69.2289959 152.645161,68.4088704 152.645161,67.397541 C152.645161,66.3862116 153.466546,65.5660861 154.479839,65.5660861 C155.493131,65.5660861 156.314516,66.3862116 156.314516,67.397541 Z M156.314516,92.6716189 C156.314516,93.6829483 155.493131,94.5030738 154.479839,94.5030738 C153.466546,94.5030738 152.645161,93.6829483 152.645161,92.6716189 C152.645161,91.6602894 153.466546,90.8401639 154.479839,90.8401639 C155.493131,90.8401639 156.314516,91.6602894 156.314516,92.6716189 Z M156.314516,118.311988 C156.314516,119.323317 155.493131,120.143443 154.479839,120.143443 C153.466546,120.143443 152.645161,119.323317 152.645161,118.311988 C152.645161,117.300658 153.466546,116.480533 154.479839,116.480533 C155.493131,116.480533 156.314516,117.300658 156.314516,118.311988 Z M156.314516,143.586066 C156.314516,144.597395 155.493131,145.41752 154.479839,145.41752 C153.466546,145.41752 152.645161,144.597395 152.645161,143.586066 C152.645161,142.574736 153.466546,141.754611 154.479839,141.754611 C155.493131,141.754611 156.314516,142.574736 156.314516,143.586066 Z M182,1.83145492 C182,2.84278432 181.178615,3.66290984 180.165323,3.66290984 C179.15203,3.66290984 178.330645,2.84278432 178.330645,1.83145492 C178.330645,0.820125512 179.15203,0 180.165323,0 C181.178615,0 182,0.820125512 182,1.83145492 Z M182,27.4718238 C182,28.4831532 181.178615,29.3032787 180.165323,29.3032787 C179.15203,29.3032787 178.330645,28.4831532 178.330645,27.4718238 C178.330645,26.4604944 179.15203,25.6403689 180.165323,25.6403689 C181.178615,25.6403689 182,26.4604944 182,27.4718238 Z M182,52.7459016 C182,53.757231 181.178615,54.5773566 180.165323,54.5773566 C179.15203,54.5773566 178.330645,53.757231 178.330645,52.7459016 C178.330645,51.7345722 179.15203,50.9144467 180.165323,50.9144467 C181.178615,50.9144467 182,51.7345722 182,52.7459016 Z M182,78.3862705 C182,79.3975999 181.178615,80.2177254 180.165323,80.2177254 C179.15203,80.2177254 178.330645,79.3975999 178.330645,78.3862705 C178.330645,77.3749411 179.15203,76.5548156 180.165323,76.5548156 C181.178615,76.5548156 182,77.3749411 182,78.3862705 Z M182,103.660348 C182,104.671678 181.178615,105.491803 180.165323,105.491803 C179.15203,105.491803 178.330645,104.671678 178.330645,103.660348 C178.330645,102.649019 179.15203,101.828893 180.165323,101.828893 C181.178615,101.828893 182,102.649019 182,103.660348 Z M182,128.934426 C182,129.945756 181.178615,130.765881 180.165323,130.765881 C179.15203,130.765881 178.330645,129.945756 178.330645,128.934426 C178.330645,127.923097 179.15203,127.102971 180.165323,127.102971 C181.178615,127.102971 182,127.923097 182,128.934426 Z M182,154.574795 C182,155.586124 181.178615,156.40625 180.165323,156.40625 C179.15203,156.40625 178.330645,155.586124 178.330645,154.574795 C178.330645,153.563466 179.15203,152.74334 180.165323,152.74334 C181.178615,152.74334 182,153.563466 182,154.574795 Z" id="Combined-Shape"></path>
+</g>
+</svg>
+</div>
+</div>
+<div class="mb-nx-5 position-relative z2">
+<div class="container">
+<div class="row">
+<div class="col-md-6 justify-content-center text-center bg-white p-sm-4 p-2">
+<a href="https://www.teamwork.com/about/" class="text-indigo-80">
+<img src="./index_files/great-teams1.svg" data-src="https://s3.amazonaws.com/tw-website-wordpress/offload/app/uploads/2019/01/11152006/great-teams1.svg" alt="Great Teams" width="400" height="257" class="img-fluid">
+</a>
+</div>
+<div class="col-md-6 pt-md-6 pt-1 pb-2 px-2 bg-white links__listContainer">
+<h4 class="text-tw-slate font-size--32 mb-2">Same team, new look</h4>
+<p class="text-slate-20 font-size--18 mb-3">
+We might look a little different, but we’re still as committed as ever to our core values — values like being customer-focused, results-driven, and trustworthy.
+</p>
+<p class="text-slate-40 font-size--18 mb-3">
+<a href="https://www.teamwork.com/about/" class="text-indigo-80"><u>Learn more about Teamwork</u></a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Start Modal -->
+<div class="modal fade video-modal-lg" id="video-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">×</span>
+</button>
+</div>
+<div class="modal-body">
+<div class="container">
+<div class="row">
+  <div class="col-md-12 text-center">
+    <script src="./index_files/k6w8wafjhv.jsonp" async=""></script><script src="./index_files/E-v1.js.Без названия" async=""></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_k6w8wafjhv videoFoam=true wistia_embed_initialized" style="height:100%;position:relative;width:100%" id="wistia-k6w8wafjhv-1"><div class="wistia_swatch" style="height: 100%; left: 0px; opacity: 1; overflow: hidden; position: absolute; top: 0px; transition: opacity 200ms ease 0s; width: 100%;"><img src="./index_files/swatch(1)" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" onload="this.parentNode.style.opacity=1;"></div><div id="wistia_chrome_67" class="w-chrome" tabindex="-1" style="display: inline-block; height: 100%; margin: 0px; padding: 0px; position: relative; vertical-align: top; width: 100%; zoom: 1; outline: none; overflow: hidden; box-sizing: content-box;"><div id="wistia_grid_73_wrapper" style="display: block;"><div id="wistia_grid_73_above"></div><div id="wistia_grid_73_main"><div id="wistia_grid_73_behind"></div><div id="wistia_grid_73_center"><div class="w-video-wrapper w-css-reset" style="clip: rect(0px, 0px, 0px, 0px); height: 100%; position: absolute; top: 0px; width: 100%; opacity: 1; background-color: rgb(0, 0, 0);"></div><div class="w-ui-container" style="height: 100%; left: 0px; position: absolute; top: 0px; width: 100%; opacity: 1;"></div></div><div id="wistia_grid_73_front"></div><div id="wistia_grid_73_top_inside"><div id="wistia_grid_73_top"></div></div><div id="wistia_grid_73_bottom_inside"><div id="wistia_grid_73_bottom"></div></div><div id="wistia_grid_73_left_inside"><div id="wistia_grid_73_left"></div></div><div id="wistia_grid_73_right_inside"><div id="wistia_grid_73_right"></div></div></div><div id="wistia_grid_73_below"></div><style id="wistia_74_style" type="text/css" class="wistia_injected_style">#wistia_grid_73_wrapper{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;font-family:Arial,sans-serif;font-size:14px;height:100%;position:relative;text-align:left;width:100%;}
+#wistia_grid_73_wrapper *{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
+#wistia_grid_73_above{position:relative;}
+#wistia_grid_73_main{display:block;height:100%;position:relative;}
+#wistia_grid_73_behind{height:100%;left:0;position:absolute;top:0;width:100%;}
+#wistia_grid_73_center{height:100%;overflow:hidden;position:relative;width:100%;}
+#wistia_grid_73_front{display:none;height:100%;left:0;position:absolute;top:0;width:100%;}
+#wistia_grid_73_top_inside{position:absolute;left:0;top:0;width:100%;}
+#wistia_grid_73_top{width:100%;position:absolute;bottom:0;left:0;}
+#wistia_grid_73_bottom_inside{position:absolute;left:0;bottom:0;width:100%;}
+#wistia_grid_73_bottom{width:100%;position:absolute;top:0;left:0;}
+#wistia_grid_73_left_inside{height:100%;position:absolute;left:0;top:0;}
+#wistia_grid_73_left{height:100%;position:absolute;right:0;top:0;}
+#wistia_grid_73_right_inside{height:100%;right:0;position:absolute;top:0;}
+#wistia_grid_73_right{height:100%;left:0;position:absolute;top:0;}
+#wistia_grid_73_below{position:relative;}</style></div></div></div></div></div>
+  </div>
+</div>
+</div>
+</div>
+<div class="modal-footer ml-2 mr-2 mb-2 p-2 bg-neutral-20 text-slate-20">
+<div class="container">
+<div class="row">
+  <div class="col col-sm-7">
+    <p>Our products work together beautifully to support your team with improved collaboration, seamless communication, and increased accountability.
+    </p>
+  </div>
+  <div class="col col-sm-5 text-sm-right">
+    <p>
+      <a href="https://www.teamwork.com/crm-signup" class="btn btn-solid btn-outline--indigo">Get started today</a>
+    </p>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- End Modal -->
+
+
+        <div class="diagonal-panel-cta py-8">
+        <div class="diagonal-panel-cta-bg"></div>
+    <div class="container">
+      <div class="row mt-4 justify-content-center align-items-center">
+        <div class="col-12 col-sm-5 mb-3 mb-sm-0">
+          <h4 class="text-white mb-2 font-size--24 font-weight-500">Get started with Teamwork</h4>
+                      <p class="text-white font-size--18 line-height--base text-purple-20 font-weight-300">Start working together beautifully. See how Teamwork can help your team with our 30-day free trial.</p>
+                  </div>
+        <div class="col-12 col-sm-3 offset-sm-1">
+          <a class="btn btn-tw-slate text-light" href="https://www.teamwork.com/signup?from=footer_home">Try now for free</a>
+          <p class="h6 text-white mt-2 mb-0">Or contact our <a href="https://www.teamwork.com/contact/?sales=1" class="text-light"><u>sales team</u></a></p>
+        </div>
+      </div>
+    </div>
+  </div>        <svg style="display:none;">
+
+   <!--
+    Start Misc Icons
+   -->
+  <symbol id="icons--plus" class="icons--plus">
+    <path d="M13.3333333,12 C13.3333333,12.7333333 12.7333333,13.3333333 12,13.3333333 L4,13.3333333 C3.26666667,13.3333333 2.66666667,12.7333333 2.66666667,12 L2.66666667,4 C2.66666667,3.26666667 3.26666667,2.66666667 4,2.66666667 L12,2.66666667 C12.7333333,2.66666667 13.3333333,3.26666667 13.3333333,4 L13.3333333,12 Z M12,0 L4,0 C1.79583333,0 0,1.79583333 0,4 L0,12 C0,14.2041667 1.79583333,16 4,16 L12,16 C14.2041667,16 16,14.2041667 16,12 L16,4 C16,1.79583333 14.2041667,0 12,0 Z" id="Fill-1"></path>
+     <path d="M10.6666667,6.66666667 L9.33333333,6.66666667 L9.33333333,5.33333333 C9.33333333,4.59583333 8.7375,4 8,4 C7.2625,4 6.66666667,4.59583333 6.66666667,5.33333333 L6.66666667,6.66666667 L5.33333333,6.66666667 C4.59583333,6.66666667 4,7.2625 4,8 C4,8.7375 4.59583333,9.33333333 5.33333333,9.33333333 L6.66666667,9.33333333 L6.66666667,10.6666667 C6.66666667,11.4041667 7.2625,12 8,12 C8.7375,12 9.33333333,11.4041667 9.33333333,10.6666667 L9.33333333,9.33333333 L10.6666667,9.33333333 C11.4041667,9.33333333 12,8.7375 12,8 C12,7.2625 11.4041667,6.66666667 10.6666667,6.66666667" id="Fill-3"></path>
+  </symbol>
+  <symbol id="icons--minus" class="icons--minus">
+     <path d="M12,0 L4,0 C1.79583333,0 0,1.79583333 0,4 L0,12 C0,14.2041667 1.79583333,16 4,16 L12,16 C14.2041667,16 16,14.2041667 16,12 L16,4 C16,1.79583333 14.2041667,0 12,0 M12,2.66666667 C12.7333333,2.66666667 13.3333333,3.26666667 13.3333333,4 L13.3333333,12 C13.3333333,12.7333333 12.7333333,13.3333333 12,13.3333333 L4,13.3333333 C3.26666667,13.3333333 2.66666667,12.7333333 2.66666667,12 L2.66666667,4 C2.66666667,3.26666667 3.26666667,2.66666667 4,2.66666667 L12,2.66666667" id="Fill-1"></path>
+     <path d="M10.6666667,9.33333333 L5.33333333,9.33333333 C4.59583333,9.33333333 4,8.7375 4,8 C4,7.2625 4.59583333,6.66666667 5.33333333,6.66666667 L10.6666667,6.66666667 C11.4041667,6.66666667 12,7.2625 12,8 C12,8.7375 11.4041667,9.33333333 10.6666667,9.33333333" id="Fill-3"></path>
+  </symbol>
+  <symbol id="icons--quote-mark" class="icons--quote-mark">
+     <path d="M11.8008,12.8008 L11.8008,11.5008 C11.8008,9.6008 12.0008,8.6008 12.5008,7.0508 L14.3008,1.5508 C14.6518,0.5008 14.9508,-0.0002 16.0508,-0.0002 L16.4018,-0.0002 C17.5008,-0.0002 17.9508,0.5008 17.7508,1.5508 L16.3518,8.2008 L16.8008,8.2008 C18.8018,8.2008 19.8018,9.2008 19.8018,11.2008 L19.8018,12.8008 C19.8018,14.8008 18.8018,15.8008 16.8008,15.8008 L14.8008,15.8008 C12.8008,15.8008 11.8008,14.8008 11.8008,12.8008 M-0.0002,12.8008 L-0.0002,11.5008 C-0.0002,9.6008 0.1998,8.6008 0.6998,7.0508 L2.4998,1.5508 C2.8508,0.5008 3.1508,-0.0002 4.2498,-0.0002 L4.6008,-0.0002 C5.6998,-0.0002 6.1508,0.5008 5.9498,1.5508 L4.5508,8.2008 L4.9998,8.2008 C7.0008,8.2008 8.0008,9.2008 8.0008,11.2008 L8.0008,12.8008 C8.0008,14.8008 7.0008,15.8008 4.9998,15.8008 L2.9998,15.8008 C0.9998,15.8008 -0.0002,14.8008 -0.0002,12.8008" id="Fill-1"></path>
+  </symbol>
+  <symbol id="icons--highlight-arrow" class="icons--highlight-arrow">
+     <path d="M20.1664944,12.3817369 C19.9069789,12.1084253 19.508384,12.0181915 19.1560246,12.1531694 L16.189867,13.2922783 C13.7196226,7.51060136 8.58375142,2.64655031 2.0317311,0.101732493 C1.26474352,-0.196561171 0.400064764,0.184508984 0.101398234,0.951869433 C-0.196522562,1.71960275 0.183801858,2.58390864 0.951908041,2.8822023 C6.71941602,5.12238771 11.2348363,9.35293759 13.4056685,14.3616611 L10.4219861,15.5074816 C10.0703725,15.6428324 9.8343476,15.9769213 9.82465306,16.353517 C9.81458565,16.7304856 10.0327129,17.0761334 10.3772421,17.2293818 L16.4214174,19.9192449 C16.5444636,19.9740563 16.6734756,20.000157 16.8002504,20.000157 C17.1570842,20.000157 17.4978847,19.7939615 17.6522516,19.4468223 L20.3421148,13.4026469 C20.4953631,13.0581178 20.4260099,12.6550484 20.1664944,12.3817369" id="Fill-1"></path>
+  </symbol>
+  <symbol id="icons--flag" class="icons--flag">
+      <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" opacity="0" x="0.5" y="0.5" width="39" height="39"></rect>
+      <g id="pole" transform="translate(20.000000, 19.800000) rotate(-30.000000) translate(-20.000000, -19.800000) translate(8.000000, 6.000000)">
+      <path d="M4.27642521,3.19124593 C7.06517067,5.13149737 17.9540484,9.48286706 21.4119334,10.0125461 C24.8700281,10.5422252 23.5439114,12.7564422 16.5713138,15.2051708 C9.59871625,17.6538994 3.75491157,17.6631176 2.84776721,17.5596891 L4.27642521,3.19124593 Z" id="Fill-4" fill="#79E3AA"></path>
+      <path d="M0.891804161,2.51177124 L0.891804161,25.2762651 L0.891804161,26.0564299 C0.891804161,27.9584633 4.49180416,27.9614192 4.49180416,26.0564299 L4.49180416,25.2762651 L4.49180416,2.51177124 C4.49180416,0.609737865 0.891804161,0.606584888 0.891804161,2.51177124" id="Fill-1" fill="#373753"></path>
+  </g></symbol>
+
+  <!--
+    Dash and Tick
+  -->
+  <symbol id="dash" class="tick-dash">
+      <path d="M11,9 L5,9 C4.446875,9 4,8.553125 4,8 C4,7.446875 4.446875,7 5,7 L11,7 C11.553125,7 12,7.446875 12,8 C12,8.553125 11.553125,9 11,9 Z" id="Path" fill="#FF7641"></path>
+  </symbol>
+  <symbol id="tick" class="tick-dash">
+    <rect id="Rectangle" fill-opacity="0" fill="#D8D8D8" x="0" y="0" width="16" height="16"></rect>
+    <g id="alert-success" stroke-width="1" transform="translate(2.968750, 3.031250)" fill="#59C0A5">
+      <path d="M3,10.03125 C2.734375,10.03125 2.48125,9.925 2.29375,9.7375 L0.29375,7.7375 C-0.096875,7.346875 -0.096875,6.7125 0.29375,6.321875 C0.684375,5.93125 1.31875,5.93125 1.709375,6.321875 L2.89375,7.50625 L8.203125,0.428125 C8.534375,-0.0125 9.1625,-0.103125 9.603125,0.228125 C10.04375,0.559375 10.134375,1.1875 9.803125,1.628125 L3.803125,9.628125 C3.628125,9.859375 3.3625,10.00625 3.075,10.025 C3.046875,10.03125 3.025,10.03125 3,10.03125 Z" id="Path"></path>
+    </g>
+  </symbol>
+
+  <symbol id="partner-phone">
+    <path d="M14.441.008H1.616C.73.008.013.812.013 1.804v21.4C.013 24.196.73 25 1.616 25h12.825c.886 0 1.603-.804 1.603-1.796v-21.4c0-.992-.717-1.796-1.603-1.796zM5.223 1.804h5.611c.223 0 .401.201.401.45 0 .248-.178.448-.401.448H5.223c-.222 0-.4-.2-.4-.448 0-.249.178-.45.4-.45zm2.806 22.135c-.664 0-1.203-.604-1.203-1.347 0-.744.539-1.348 1.203-1.348.663 0 1.202.604 1.202 1.348 0 .743-.539 1.347-1.202 1.347zm5.955-3.9H2.074V4.499h11.91v15.54z"></path>
+  </symbol>
+
+  <symbol id="partner-email">
+    <path d="M15.008 9.4a315.13 315.13 0 0 1 3.876-2.877A6.322 6.322 0 0 0 20 5.471v9.333L15.008 9.4zm3.084-4.17l-4.094 3.077-1.129.849-.167.129-.308.24a23.19 23.19 0 0 1-.602.459c-.161.116-.354.248-.581.392a3.304 3.304 0 0 1-.642.327 1.66 1.66 0 0 1-.558.108h-.022c-.171 0-.357-.036-.558-.108a3.304 3.304 0 0 1-.642-.327c-.227-.144-.42-.275-.58-.392-.16-.117-.361-.27-.603-.459l-.308-.241-.166-.128a549.704 549.704 0 0 0-2.924-2.204A535.817 535.817 0 0 1 1.92 5.23c-.462-.338-.897-.803-1.306-1.395C.205 3.242 0 2.693 0 2.186 0 1.557.154 1.034.463.615c.309-.418.75-.628 1.323-.628h16.428c.484 0 .902.189 1.256.568.353.379.53.833.53 1.365 0 .636-.182 1.244-.546 1.824a5.565 5.565 0 0 1-1.362 1.486zM4.994 9.398L0 14.803V5.471a6.06 6.06 0 0 0 1.127 1.052 356.821 356.821 0 0 1 3.867 2.875zm1.68 1.293c.424.337.768.601 1.032.79.264.19.616.383 1.055.58.439.198.848.296 1.228.296h.022c.379 0 .789-.098 1.228-.296.439-.197.79-.39 1.054-.58.265-.189.609-.453 1.033-.79l.392-.306 5.666 6.134c-.331.317-.72.478-1.17.478H1.786c-.45 0-.84-.161-1.171-.478l5.668-6.135c.142.11.273.212.391.307z"></path>
+  </symbol>
+
+  <symbol id="partner-location">
+    <path d="M8.497 0C3.813 0 .002 3.56.002 7.936c0 1.762 1.205 4.636 3.683 8.784a95.531 95.531 0 0 0 3.549 5.484l1.263 1.788 1.262-1.788a94.913 94.913 0 0 0 3.549-5.484c2.478-4.148 3.683-7.022 3.683-8.784C16.991 3.56 13.18 0 8.497 0zm0 11.298A2.822 2.822 0 0 1 5.67 8.48a2.821 2.821 0 0 1 2.827-2.817 2.821 2.821 0 0 1 2.826 2.817 2.822 2.822 0 0 1-2.826 2.818z"></path>
+  </symbol>
+
+  <!--
+    End Misc Icons
+  -->
+</svg>
+
+  
+
+
+<footer class="footer" role="contentinfo">
+ 
+  <div class="bg-slate-100 text-slate-20 py-3">
+ 
+  </div>
+</footer>
+
+<style id="wistia_18_style" type="text/css" class="wistia_injected_style">
+@font-face {
+font-family: 'WistiaPlayerOverpassNumbers';
+src: url(data:application/x-font-ttf;charset=utf-8;base64,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);
+}
+</style>
+
+<div class="pubble-cw pubble-cw-contactbot">
+
+    <div class="pubble-sb-clientsize pubble-sb-br pubble-sb-br-s" id="pb_sidebar">
+ 
+
+        <div class="pubble-sb-notif pubble-off"><div class="pubble-sb-notif-nr"></div></div>
+
+
+    </div>
+
+
+
+<div class="pubble-sb-bubble pubble-move">
+    <div class="pubble-sb-bubble-close"></div>
+    <div class="pubble-sb-bubble-item-list">
+        <div class="pubble-sb-bubble-item-one">
+           
+        </div>  
+        <div class="pubble-sb-bubble-item-two">
+        </div> 
+    </div>
+
+</div>
+
+
+</div>
+<!--   END CONACT BOT -->
+
+<!-- START MODAL -->
+<div class="pubble-cw pubble-cw-modal pubble-hide">
+    <div class="pubble-cw pubble-cw-modal-shade"></div>
+    <div class="pubble-cw-modal-bar">
+        <div class="pubble-cw-modal-close-button"></div>
+    </div>
+    
+    <div class="pubble-cw-modal-media-container pubble-cw-modal-img-container pubble-off">
+        <div class="pubble-cw-modal-img">
+            <!-- add img here -->
+        </div>    
+    </div>
+    
+    <div class="pubble-cw-modal-media-container pubble-cw-modal-video-container pubble-off">
+        <div class="pubble-cw-modal-video">
+            <!-- add vid here -->
+        </div>    
+        <div class="pubble-cw-modal-video-button"></div>   
+    </div>
+    
+</div>
+<!-- END MODAL -->
+
+<!-- START PANEL -->
+<div class="pubble-cw-shadow pubble-hide"></div>
+
+</div>
+</body>
+</html>
