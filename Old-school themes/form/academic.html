@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Writing Buddy – Learn to Write Like a Pro!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Writing Buddy uses machine learning to make you write like a pro. It literally injects words into your bloodstream improving your overall writing performance by over 1000%. Good luck and stay safe.">
+      
+    <link rel="icon" href="images/favicon.ico" type="image/png">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/custombutt.css">
+      
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/46421073c0.js"></script>
+      
+    <!-- ANALYTICS START -->  
+    <!-- Quora Pixel Code (JS Helper) -->
+    <script>
+    !function(q,e,v,n,t,s){if(q.qp) return; n=q.qp=function(){n.qp?n.qp.apply(n,arguments):n.queue.push(arguments);}; n.queue=[];t=document.createElement(e);t.async=!0;t.src=v; s=document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);}(window, 'script', 'https://a.quora.com/qevents.js');
+    qp('init', '4158363ddeaa4b0abc8a7a0feab0c656');
+    qp('track', 'ViewContent');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/4158363ddeaa4b0abc8a7a0feab0c656/pixel?tag=ViewContent&noscript=1"/></noscript>
+      
+    <script>qp('track', 'Generic');</script>
+    <!-- End of Quora Pixel Code -->  
+      
+      
+    <!-- Hotjar Tracking Code for https://edtech-startups.github.io/admissions/ -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1395555,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+      
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142309756-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-142309756-3', { 'optimize_id': 'GTM-KD2DSM2'});
+    </script>
+
+    <!-- Anti-flicker snippet (recommended)  -->
+    <style>.async-hide { opacity: 0 !important} </style>
+    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000,
+    {'GTM-KD2DSM2':true});</script>
+      
+    <script type="text/javascript">
+      (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+      ;r.type="text/javascript"
+      ;r.integrity="sha384-d/yhnowERvm+7eCU79T/bYjOiMmq4F11ElWYLmt0ktvYEVgqLDazh4+gW9CKMpYW"
+      ;r.crossOrigin="anonymous";r.async=true
+      ;r.src="https://cdn.amplitude.com/libs/amplitude-5.2.2-min.gz.js"
+      ;r.onload=function(){if(!e.amplitude.runQueuedFunctions){
+      console.log("[Amplitude] Error: could not load SDK")}}
+      ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+      ;function s(e,t){e.prototype[t]=function(){
+      this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+      var o=function(){this._q=[];return this}
+      ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+      ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+      ;return this}
+      ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+      ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+      ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","onInit","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
+      ;function v(e){function t(t){e[t]=function(){
+      e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+      for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+      e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+      ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+      ;e.amplitude=n})(window,document);
+
+      amplitude.getInstance().init("64eb9fa408120cf3544a7b9bccba6e01", null, {
+        includeUtm: true,
+        includeReferrer: true,
+        });
+    </script>
+      
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '467057150731163');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=467057150731163&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- ANALYTICS END -->  
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+  <div class="site-wrap"  id="home-section">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+      
+    <div class="container d-none d-lg-block">
+      <div class="row">
+        <div class="col-12 text-center mb-4 mt-5">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">✍️ страница для универов<span class="text-primary">.</span> </a></h1>
+          </div>
+      </div>
+    </div>
+    <header class="site-navbar py-md-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-8 col-md-8 col-xl-2  d-block d-lg-none">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0"><small><small><small>✍️ страница для универов</small></small></small><span class="text-primary">.</span> </a></h1>
+          </div>
+
+          <div class="col-12 col-md-10 main-menu">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#start" class="nav-link">Product</a></li>
+                <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
+                <li><a href="#pricing" class="nav-link">Get Started</a></li>
+                <li><a href="#about-us" class="nav-link">About us</a></li>
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-4 col-md-4 d-inline-block d-lg-none ml-md-0" ><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+    
+
+    <div class="site-blocks-cover">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          <div class="col-md-12" style="position: relative;" data-aos="fade-up">
+            
+            <img src="images/studying.png" alt="Image" style="opacity: 0.9" class="img-fluid img-absolute mt-5">
+
+            <div class="row mb-4">
+              <div class="col-lg-6 mr-auto">
+                <h1>счастливый студент = платящий студент</h1>
+                <div class="col-lg-8 pl-0 mr-auto">
+                  <p class="mb-5">геймификация групповой работы повышает ретеншн</p>
+                    </div>
+                <div>
+                    <a href="#start"><button onClick="amplitude.getInstance().logEvent('learn-more');">вау 😮</button></a>
+                </div>
+              </div>   
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+
+    
+    <div class="feature-big" id="start">
+      <div class="container">
+        <div class="row mb-5 site-section border-bottom" data-aos="fade-up">
+          <div class="col-lg-7 mt-md-5">
+            <img src="images/1-select.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2 class="text-black">студенты делают то шо им нравится</h2>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li>Clarify and articulate your ideas</li>
+              <li>Get a clear sense of audience, genre, and purpose</li>
+                <li>Identify the issue and why it matters—the “So What” question</li>
+            </ul>
+                <div>
+                    <a href="#pricing"><button>Get Started! 👍</button></a>
+                </div>
+          </div>
+        </div>
+
+        <div class="mt-5 row mb-5 site-section" data-aos="fade-up">
+          <div class="col-lg-7 order-1 order-lg-2 mt-md-5">
+           <img src="images/2-blast.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
+            <h2 class="text-black">Master the Craft of Writing and Research ✉️</h2>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li>Use a logical progression of ideas</li>
+              <li>Use sources judiciously</li>
+              <li>Avoid plagiarism</li>   
+                <li>Write clearly and directly</li> 
+                <li>Write specific and detail-oriented prose</li> 
+                <li>Write with a compelling strong voice</li> 
+            </ul>
+                <div>
+                    <a href="#pricing"><button>Start writing! 🚀</button></a>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="feature-big">
+      <div class="container" data-aos="fade-up">
+        <div class="row mb-5 site-section border-bottom">
+          <div class="col-lg-7">
+            <img src="images/3-getaccepted.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2 class="text-black">Edit Your Final Draft 🏫</h2>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li>Proofread your work before submission</li>
+                <li>Format to meet the requirements of your academic project</li>
+              <li>Diagnose and edit for style issues</li>
+              <li>Edit to conform to the standards of academic writing</li>
+            </ul>
+                <div>
+                    <a href="#pricing"><button>Start editing! 😇</button></a>
+                </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+    <div class="site-section bg-light" id="about-section">
+      <div class="container" data-aos="fade-up">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Our mission...</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6">
+            <img src="images/mission.png" alt="Image" class="img-fluid mb-5 mb-lg-0 rounded shadow">
+          </div>
+          <div class="col-lg-5 ml-auto pl-lg-5">
+            <h2 class="text-black mb-4">...is to help with your <br><br> ...edition?</h2>
+              
+            <p class="mb-4">A busy life filled with teaching, committees, conferences, travel, editing, partners, family, and more means that your own research, writing, and publishing often fall to the bottom of the list. A coach is there to encourage you to do your own work. But more than that, a coach gives you the tools to write more efficiently, more meaningfully, and with more enthusiasm and less anxiety.
+<br>
+If you know that you can do more with your writing, coaching can help you find your own voice and what you want to do with it.</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+
+    <div class="site-section testimonial-wrap" id="testimonials-section" data-aos="fade-up">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Testimonials</h2>
+          </div>
+        </div>
+      </div>
+      <div class="slide-one-item home-slider owl-carousel">
+          
+                    <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/person_4.jpeg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;I passed! With flying colors. All five members of my committee complimented me on the writing, the amount of detail, and they were genuinely interested in the content. A few of them mentioned it was one of the best dissertations that they’d  read in years.&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Yeo Kim</strong></p>
+
+              
+            </div>
+           
+          </div>
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/person_3.jpeg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;This writing coaching has qualitatively changed the way I work and write. The results should show themselves in my pub record by the end of this year.&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Craig Riggs</strong></p>
+
+              
+            </div>
+          </div>
+          <div>
+            <div class="testimonial">
+              
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/person_2.jpeg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+
+              <blockquote class="mb-3">
+                <p>&ldquo;I can’t thank you enough for this marvelous resource and support. I never expected so much from the writing buddy; this really was an extremely valuable investment. I do feel like I’ve changed, and it’s really enhanced my productivity.&rdquo;</p>
+              </blockquote>
+              
+              <p class="text-black"><strong>Roberta Aguilar</strong></p>
+              
+              
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/person_1.jpeg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;You have been kind and helpful and supportive. I wish there was another word for thank you. In this case repetition is correct: THANK YOU.&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Cheryl McDonald</strong></p>
+
+              
+            </div>
+
+          </div>
+
+        </div>
+    </div>
+
+    
+
+<div class="site-section bg-bright" id="pricing">
+      <div class="container" data-aos="fade-up">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3 mt-5 white-text">Let's Work Together</h2>
+              <p class="white-text">Schedule your free 15-minute initial consultation</p>
+          </div>
+        </div>
+          
+          <div class="row justify-content-center">
+              <div class="col-lg-7 mb-5 text-center">
+                  <a href="form-49.html" target="_blank"><button  style="background: white; color: #ee786e"><b>STUDENT LOGIN</b></button></a>
+              </div>
+            </div>
+      </div>
+    </div>
+  
+      
+    <!--================ About us =================-->
+          <section id="about-us" class="py-5">
+	<div class="popular_courses lite_bg py-5" data-aos="fade-up">
+		<div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Our journey so far</h2>
+						<p>Founded by Josh Miller, an editor-at-large at NYT, and Vanessa Bright, a senior editor at Bay News, we helped students and professors from across the world to improve their writing to achieve personal and academic goals.</p>
+          </div>
+        </div>
+      </div>
+        <div class="container">
+			<div class="row mb-5">
+				<div class="col-lg-3 col-md-6">
+					<div class="single_course">
+                        <div style="font-size: 50px; color: dimgray" class="text-center">
+                        2013
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            Year founded
+                        </div>
+					</div>
+				</div>
+                <div class="col-lg-3 col-md-6">
+					<div class="single_course">
+                        <div style="font-size: 50px; color: dimgray" class="text-center">
+                        7
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            Full time employees
+                        </div>
+					</div>
+				</div>
+                <div class="col-lg-3 col-md-6">
+					<div class="single_course">
+                        <div style="font-size: 50px; color: dimgray" class="text-center">
+                        1900+
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            Happy customers
+                        </div>
+					</div>
+				</div>
+                <div class="col-lg-3 col-md-6">
+					<div class="single_course">
+                        <div style="font-size: 50px; color: dimgray" class="text-center">
+                        34
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            Writing experts available
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+      </section>
+      
+    <div class="site-section bg-light" id="about-section">
+      <div class="container" data-aos="fade-up">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">3 key skills you'll learn</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-4">
+            <h2 class="text-black mb-4">Formulate</h2>
+            <p class="mb-4">Writing an article or book for publication, even one revised from a successful dissertation, requires careful consideration to turn an idea in a workable, expanded reality. The first step is to ask yourself, “so what?” At Writing Buddy, we strive to teach our clients the value of purposeful writing. Not every first idea will be a good one. You will need to give yourself permission to think about your idea, to ponder its complexities, and to consider the possibilities it presents to you as a writer. The coaches at Writing Buddy can help you clarify your ideas and teach you the skills needed to turn an idea into finished manuscript.</p>
+          </div>
+          <div class="col-lg-4">
+            <h2 class="text-black mb-4">Identify</h2>
+            Unlike a dissertation, many other pieces of writing—articles, books, reports—do not have a ready-made audience. After you have decided someone out in the world needs to know your thoughts on a subject, you then need to figure out exactly who comprises your audience. After all, not every piece of writing will interest everyone we meet in our professional lives, and that’s okay. To successfully complete a piece of writing and then have it published, you must identify your audience and then craft a strategy to meet your intended audience’s expectations. This can be a difficult task, one rife with questions of scope and style. 
+          </div>
+          <div class="col-lg-4">
+            <h2 class="text-black mb-4">Communicate</h2>
+            <p class="mb-4">So you have a good idea; you know who you’re writing for and what they’d like to read about. The next step on the path to successful completion of any writing project—academic or professional—is to effectively communicate your ideas. Effective communication includes logically organizing your thoughts and presenting them coherently. To do this, you must write stylistically and technically proficient prose. We help you present a clear argument using a strong voice, a consistent and professional tone, and a compelling style. In addition, we address general formatting and proofreading errors as well as help you avoid plagiarism by ensuring your manuscript is properly sourced and cited. </p>
+          </div>
+            
+            
+            
+<!--
+            <div class="col-lg-4 offset-4 mt-5">
+            
+            <div class="mt-5">
+                    <a href="#pricing"><button>Okay, I'm convinced</button></a>
+                </div>
+          </div>
+-->
+            
+        </div>
+          
+            <div class="row justify-content-center">
+              <div class="col-lg-7 mb-5 text-center">
+                  <a href="#pricing"><button>Okay, I'm convinced</button></a>
+              </div>
+            </div>
+        
+      </div>
+    </div>  
+      
+      
+    <div class="site-section bg-bright" id="contact-section">
+      <div class="container" data-aos="fade-up">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3 mt-5 white-text">Still have questions?</h2>
+          </div>
+        </div>
+          
+          <div class="row justify-content-center">
+              <div class="col-lg-7 mb-5 text-center">
+                  <a href="https://m.me/admiss.buddy" target="_blank"><button  style="background: white; color: #ee786e"><b>Message Us</b></button></a>
+              </div>
+            </div>
+      </div>
+    </div>  
+
+    <div class="footer py-5 border-top text-center">
+      <div class="container">
+<!--
+        <div class="row mb-5">
+          <div class="col-12">
+            <p class="mb-0">
+
+              <a href="https://www.facebook.com/AppBlast-1105403082984274" target="_blank" class="p-3"><span class="icon-facebook"></span></a>
+
+            </p>
+          </div>
+        </div>
+-->
+        <div class="row">
+          <div class="col-md-12">
+            <p class="mb-0">
+                Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fas fa-hand-paper" aria-hidden="true"></i> by Brian and Craig. <a href="terms-and-conditions.html">Terms and conditions</a> apply
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+     
+    
+  </div> <!-- .site-wrap -->
+
+      <script>amplitude.getInstance().logEvent('page-loaded');</script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>

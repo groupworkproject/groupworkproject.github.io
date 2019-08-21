@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Writing Buddy – Learn to Write Like a Pro!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Admission Buddy uses machine learning to automate application proofreading and submission. Find the colleges that fit you best, send multiple admissions in one click, and get admitted to your dream college.">
+      
+    <link rel="icon" href="images/favicon.ico" type="image/png">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/custombutt.css">
+      
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/46421073c0.js"></script>
+      
+    <!-- ANALYTICS START -->  
+    <!-- Quora Pixel Code (JS Helper) -->
+    <script>
+    !function(q,e,v,n,t,s){if(q.qp) return; n=q.qp=function(){n.qp?n.qp.apply(n,arguments):n.queue.push(arguments);}; n.queue=[];t=document.createElement(e);t.async=!0;t.src=v; s=document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);}(window, 'script', 'https://a.quora.com/qevents.js');
+    qp('init', '4158363ddeaa4b0abc8a7a0feab0c656');
+    qp('track', 'ViewContent');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/4158363ddeaa4b0abc8a7a0feab0c656/pixel?tag=ViewContent&noscript=1"/></noscript>
+      
+    <script>qp('track', 'Generic');</script>
+    <!-- End of Quora Pixel Code -->  
+      
+      
+    <!-- Hotjar Tracking Code for https://edtech-startups.github.io/admissions/ -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1395555,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+      
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142309756-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-142309756-3', { 'optimize_id': 'GTM-KD2DSM2'});
+    </script>
+
+    <!-- Anti-flicker snippet (recommended)  -->
+    <style>.async-hide { opacity: 0 !important} </style>
+    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000,
+    {'GTM-KD2DSM2':true});</script>
+      
+    <script type="text/javascript">
+      (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+      ;r.type="text/javascript"
+      ;r.integrity="sha384-d/yhnowERvm+7eCU79T/bYjOiMmq4F11ElWYLmt0ktvYEVgqLDazh4+gW9CKMpYW"
+      ;r.crossOrigin="anonymous";r.async=true
+      ;r.src="https://cdn.amplitude.com/libs/amplitude-5.2.2-min.gz.js"
+      ;r.onload=function(){if(!e.amplitude.runQueuedFunctions){
+      console.log("[Amplitude] Error: could not load SDK")}}
+      ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+      ;function s(e,t){e.prototype[t]=function(){
+      this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+      var o=function(){this._q=[];return this}
+      ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+      ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+      ;return this}
+      ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+      ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+      ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","onInit","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
+      ;function v(e){function t(t){e[t]=function(){
+      e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+      for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+      e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+      ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+      ;e.amplitude=n})(window,document);
+
+      amplitude.getInstance().init("64eb9fa408120cf3544a7b9bccba6e01", null, {
+        includeUtm: true,
+        includeReferrer: true,
+        });
+    </script>
+      
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '467057150731163');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=467057150731163&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- ANALYTICS END -->  
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+  <div class="site-wrap"  id="home-section">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+<!-- bye bye ph
+    <a href="https://www.producthunt.com/posts/admission-buddy?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-admission-buddy" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=163433&theme=light" alt="Admission Buddy - Apply to multiple colleges in one click | Product Hunt Embed" style="width: 250px; height: 54px; position: fixed; bottom: 1em;
+     right:1em; z-index: 1" width="250px" height="54px" /></a>  
+-->
+      
+      
+    <div class="container d-none d-lg-block">
+      <div class="row">
+        <div class="col-12 text-center mb-4 mt-5">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">✍️ Writing Buddy<span class="text-primary">.</span> </a></h1>
+          </div>
+      </div>
+    </div>
+    <header class="site-navbar py-md-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-8 col-md-8 col-xl-2  d-block d-lg-none">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0"><small><small><small>✍️ Writing Buddy</small></small></small><span class="text-primary">.</span> </a></h1>
+          </div>
+
+          <div class="col-12 col-md-10 main-menu">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#start" class="nav-link">Product</a></li>
+                <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#about-us" class="nav-link">About us</a></li>
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-4 col-md-4 d-inline-block d-lg-none ml-md-0" ><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+    
+
+    <div class="site-blocks-cover">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          <div class="col-md-12" style="position: relative;" data-aos="fade-up">
+            
+            <img src="images/studying.png" alt="Image" style="opacity: 0.9" class="img-fluid img-absolute mt-5">
+
+            <div class="row mb-4">
+              <div class="col-lg-6 mr-auto">
+                <h1>Write, Submit, Rinse, Repeat.</h1>
+                <div class="col-lg-8 pl-0 mr-auto">
+                  <p class="mb-5">Transform your words from good to great with the use of professional writers and editors</p>
+                    </div>
+                <div>
+                    <a href="#start"><button onClick="amplitude.getInstance().logEvent('learn-more');">Learn More 😮</button></a>
+                </div>
+              </div>   
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+
+    
+    <div class="feature-big" id="start">
+      <div class="container">
+        <div class="row mb-5 site-section border-bottom" data-aos="fade-up">
+          <div class="col-lg-7 mt-md-5">
+            <img src="images/1-select.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2 class="text-black">Find The Writer That Suits You Best</h2>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li>Pick your favorite from any of 78 US-based writers</li>
+              <li>Or ask us to find ones that fit you best based on your skill level</li>
+            </ul>
+                <div>
+                    <a href="#pricing"><button>Get Matched! 👍</button></a>
+                </div>
+          </div>
+        </div>
+
+        <div class="mt-5 row mb-5 site-section" data-aos="fade-up">
+          <div class="col-lg-7 order-1 order-lg-2 mt-md-5">
+           <img src="images/2-blast.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
+            <h2 class="text-black">Get a taste of 1600 SAT Score ✉️</h2>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li>Get advice from your mentor while you craft your first piece</li>
+              <li>Keep progressing incrementally at your own pace</li>
+              <li>No pressure: write as little or as much as you want</li>             
+            </ul>
+                <div>
+                    <a href="#pricing"><button>Start writing! 🚀</button></a>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="feature-big">
+      <div class="container" data-aos="fade-up">
+        <div class="row mb-5 site-section border-bottom">
+          <div class="col-lg-7">
+            <img src="images/3-getaccepted.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2 class="text-black">Nail Your SAT 🏫</h2>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li>Now you can write with your eyes closed, your laptop shut off and your notebook below the bed</li>
+                <li>Despite popular belief, 750 and 770 SAT makes a huge difference</li>
+              <li>You're getting A's on your college essays</li>
+              <li>You may even become a mentor if you feel like you've mastered the art!</li>
+            </ul>
+                <div>
+                    <a href="#pricing"><button>Start ascent! 😇</button></a>
+                </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+    <div class="site-section bg-light" id="about-section">
+      <div class="container" data-aos="fade-up">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Our mission...</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6">
+            <img src="images/mission.png" alt="Image" class="img-fluid mb-5 mb-lg-0 rounded shadow">
+          </div>
+          <div class="col-lg-5 ml-auto pl-lg-5">
+            <h2 class="text-black mb-4">...is to help with your tuition.</h2>
+            <p class="mb-4">All of us went through the college admission process and for none it was either easy or enjoyable, so we figured there's something we can change. With the power of machine learning and automation, we built a system that allows you to find colleges that match you best and send admissions with a click of a button. With that, we hope to turn admission process from a nightmare to a walk in the park.</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+
+    <div class="site-section testimonial-wrap" id="testimonials-section" data-aos="fade-up">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Testimonials</h2>
+          </div>
+        </div>
+      </div>
+      <div class="slide-one-item home-slider owl-carousel">
+          
+                    <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/person_4.jpeg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;It's not cheap, but it does the job. More applications = more chances. And I really wanted to choose out of many options so it worked for me.&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Yeo Kim</strong></p>
+
+              
+            </div>
+           
+          </div>
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/person_3.jpeg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;These guys are freakin amazing, especially when you're running out of time. I was a bit scared at first because of all the scandals and stuff, but it turned out to be legit&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Craig Riggs</strong></p>
+
+              
+            </div>
+          </div>
+          <div>
+            <div class="testimonial">
+              
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/person_2.jpeg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+
+              <blockquote class="mb-3">
+                <p>&ldquo;Service's good. I perfected my application and got into my dream school. I totally recommend it to anyone who is planning to apply to US colleges.&rdquo;</p>
+              </blockquote>
+              
+              <p class="text-black"><strong>Roberta Aguilar</strong></p>
+              
+              
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/person_1.jpeg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;First, I didn't know which colleges to apply to, and second, I was very frustrated with the common app, and you guys were my guides, thank you!&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Cheryl McDonald</strong></p>
+
+              
+            </div>
+
+          </div>
+
+        </div>
+    </div>
+
+    
+
+<section class="pricing py-5" id="pricing">
+    <div class="container" data-aos="fade-up">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">One Price Fits All</h2>
+          </div>
+        </div>
+      </div>
+  <div class="container" data-aos="fade-up">
+    <div class="row">
+      <div class="col-lg-4 offset-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-uppercase text-center">1 month</h5>
+            <h6 class="card-price text-center">$49</h6>
+            <hr>
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited reviews</strong></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>A personal development plan</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Writing excercise suggestions</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>A dedicated tutor</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Cancel anytime</li>
+            </ul>
+            <a href="https://api.fondy.eu/s/NspndKMe5" onClick="amplitude.getInstance().logEvent('get-started', {'package': 99});" class="btn btn-block btn-primary text-uppercase">Subscribe</a>
+          </div>
+        </div>
+      </div>
+      
+<!--
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-uppercase text-center">6 months</h5>
+            <h6 class="card-price text-center">$49</h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5 Applications</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>College Matching</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Essay Review</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Essay Tailoring</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Status Reports</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Revisions</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>24/7 support</li>
+            </ul>
+            <a href="form-499.html" onClick="amplitude.getInstance().logEvent('get-started', {'package': 499});" class="btn btn-block btn-primary text-uppercase">Subscribe</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-uppercase text-center">12 months</h5>
+            <h6 class="card-price text-center">$99</h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>10 Applications</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>College Matching</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Essay Review</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Essay Tailoring</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Status Reports</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Revisions</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>24/7 support</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Admission Interview Preparation</li>
+            </ul>
+            <a href="form-999.html" onClick="amplitude.getInstance().logEvent('get-started', {'package': 999});" class="btn btn-block btn-primary text-uppercase">Subscribe</a>
+          </div>
+        </div>
+      </div>
+-->
+    </div>
+  </div>
+</section>
+  
+      
+    <!--================ About us =================-->
+          <section id="about-us" class="py-5">
+	<div class="popular_courses lite_bg py-5" data-aos="fade-up">
+		<div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Our journey so far</h2>
+						<p>Founded by Brian Molino, a writing expert, and Craig Weebler, a seasoned machine learning engineer, we helped students from across the world to learn writing like pros.</p>
+          </div>
+        </div>
+      </div>
+        <div class="container">
+			<div class="row mb-5">
+				<!-- single course -->
+				<div class="col-lg-3 col-md-6">
+					<div class="single_course">
+                        <div style="font-size: 50px; color: dimgray" class="text-center">
+                        2017
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            Year founded
+                        </div>
+					</div>
+				</div>
+                <div class="col-lg-3 col-md-6">
+					<div class="single_course">
+                        <div style="font-size: 50px; color: dimgray" class="text-center">
+                        7
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            Full time employees
+                        </div>
+					</div>
+				</div>
+                <div class="col-lg-3 col-md-6">
+					<div class="single_course">
+                        <div style="font-size: 50px; color: dimgray" class="text-center">
+                        3900+
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            Happy customers
+                        </div>
+					</div>
+				</div>
+                <div class="col-lg-3 col-md-6">
+					<div class="single_course">
+                        <div style="font-size: 50px; color: dimgray" class="text-center">
+                        78
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            Writing experts available
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+      </section>
+      
+    <div class="site-section bg-light" id="about-section">
+      <div class="container" data-aos="fade-up">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Why is writing so important?</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-4">
+            <h2 class="text-black mb-4">Communication</h2>
+            <p class="mb-4">Words are everything. Words give the world and life and everything in it meaning. And because people must effectively and efficiently convey meaningful information to each other, strong communication is what keeps most of the world moving in the same general direction. (At least most of the time.) Consequently, communication is one of the most crucial aspects of the working world. It’s needed to form trusting relationships, close business deals, conduct interviews, draw in customers and retain clientele, etc. And it’s needed to accomplish things, that’s for certain.</p>
+          </div>
+          <div class="col-lg-4">
+            <h2 class="text-black mb-4">Carreer</h2>
+            Whether it is the law enforcement officer writing a crime report, a teacher drafting a lesson plan for the next day’s class, or a lawyer finalizing the legalities of a business deal, writing is something most professionals are required to do, whether they are employed in white- or blue-collar jobs. In fact, it’s safe to say that because so many businesses and organizations require their employees to at least be somewhat competent in writing, quite a few people are hired simply because their skill for writing is better than that of another applicant.
+          </div>
+          <div class="col-lg-4">
+            <h2 class="text-black mb-4">Education</h2>
+            <p class="mb-4">Those who write well are, in many ways, highly skilled individuals in their language. Writing is an extension of one’s speech, an ally of communication, one that indicates one’s intelligence, their level of education, among other things; it utilizes one’s ability to consider and dissect relevant information for a purpose, and writing also makes uses of one’s critical-thinking skills developed in college. Critical thinking is the ability to actively and skillfully conceptualize, apply, analyze, synthesize, and/or evaluate information gathered from, or generated by, observation, experience, reflection, reasoning, or communication, as a guide to belief and action./p>
+          </div>
+            <div class="col-lg-4 offset-4 mt-5">
+            
+            <div class="mt-5">
+                    <a href="#pricing"><button>Okay, I'm convinced</button></a>
+                </div>
+          </div>
+            
+        </div>
+        
+      </div>
+    </div>  
+      
+    <div class="site-section" id="contact-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Any questions?</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-7 mb-5 text-center">
+              <a href="https://m.me/admiss.buddy" class="fb-msg-btn" target="_blank">Message Us</a>
+              
+          </div>
+        
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="footer py-5 border-top text-center">
+      <div class="container">
+<!--
+        <div class="row mb-5">
+          <div class="col-12">
+            <p class="mb-0">
+
+              <a href="https://www.facebook.com/AppBlast-1105403082984274" target="_blank" class="p-3"><span class="icon-facebook"></span></a>
+
+            </p>
+          </div>
+        </div>
+-->
+        <div class="row">
+          <div class="col-md-12">
+            <p class="mb-0">
+                Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fas fa-hand-paper" aria-hidden="true"></i> by Brian and Craig. <a href="terms-and-conditions.html">Terms and conditions</a> apply
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+     
+    
+  </div> <!-- .site-wrap -->
+
+      <script>amplitude.getInstance().logEvent('page-loaded');</script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>

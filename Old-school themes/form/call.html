@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Admission Buddy – Apply to Multiple Colleges in One Click!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Admission Buddy uses machine learning to automate application proofreading and submission. Find the colleges that fit you best, send multiple admissions in one click, and get admitted to your dream college.">
+      
+    <link rel="icon" href="images/favicon.ico" type="image/png">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/custombutt.css">
+      
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/46421073c0.js"></script>
+      
+    <!--new analytics that don't ffin work-->
+<!--
+    <script async src="analytics.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142309756-3"></script>
+    <style>.async-hide { opacity: 0 !important} </style>
+-->
+      
+    <!-- ANALYTICS START -->  
+    <!-- Quora Pixel Code (JS Helper) -->
+    <script>
+    !function(q,e,v,n,t,s){if(q.qp) return; n=q.qp=function(){n.qp?n.qp.apply(n,arguments):n.queue.push(arguments);}; n.queue=[];t=document.createElement(e);t.async=!0;t.src=v; s=document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);}(window, 'script', 'https://a.quora.com/qevents.js');
+    qp('init', '4158363ddeaa4b0abc8a7a0feab0c656');
+    qp('track', 'ViewContent');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/4158363ddeaa4b0abc8a7a0feab0c656/pixel?tag=ViewContent&noscript=1"/></noscript>
+      
+    <script>qp('track', 'Generic');</script>
+    <!-- End of Quora Pixel Code -->  
+      
+      
+    <!-- Hotjar Tracking Code for https://edtech-startups.github.io/admissions/ -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1395555,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+      
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142309756-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-142309756-3', { 'optimize_id': 'GTM-KD2DSM2'});
+    </script>
+
+    <!-- Anti-flicker snippet (recommended)  -->
+    <style>.async-hide { opacity: 0 !important} </style>
+    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000,
+    {'GTM-KD2DSM2':true});</script>
+      
+    <script type="text/javascript">
+      (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+      ;r.type="text/javascript"
+      ;r.integrity="sha384-d/yhnowERvm+7eCU79T/bYjOiMmq4F11ElWYLmt0ktvYEVgqLDazh4+gW9CKMpYW"
+      ;r.crossOrigin="anonymous";r.async=true
+      ;r.src="https://cdn.amplitude.com/libs/amplitude-5.2.2-min.gz.js"
+      ;r.onload=function(){if(!e.amplitude.runQueuedFunctions){
+      console.log("[Amplitude] Error: could not load SDK")}}
+      ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+      ;function s(e,t){e.prototype[t]=function(){
+      this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+      var o=function(){this._q=[];return this}
+      ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+      ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+      ;return this}
+      ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+      ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+      ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","onInit","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
+      ;function v(e){function t(t){e[t]=function(){
+      e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+      for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+      e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+      ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+      ;e.amplitude=n})(window,document);
+
+      amplitude.getInstance().init("64eb9fa408120cf3544a7b9bccba6e01", null, {
+        includeUtm: true,
+        includeReferrer: true,
+        });
+    </script>
+      
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '467057150731163');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=467057150731163&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- ANALYTICS END -->  
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+  <div class="site-wrap"  id="home-section">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>  
+    <div class="container d-none d-lg-block">
+      <div class="row">
+        <div class="col-12 text-center mb-4 mt-5">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">⚡ Admission Buddy<span class="text-primary">.</span> </a></h1>
+          </div>
+      </div>
+    </div>
+    <header class="site-navbar py-md-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-8 col-md-8 col-xl-2  d-block d-lg-none">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0"><small><small><small>⚡ Admission Buddy</small></small></small><span class="text-primary">.</span> </a></h1>
+          </div>
+
+          <div class="col-12 col-md-10 main-menu">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#start" class="nav-link">Product</a></li>
+                <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
+                <li><a href="#pricing" class="nav-link">Get Started</a></li>
+                <li><a href="#about-us" class="nav-link">About us</a></li>
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-4 col-md-4 d-inline-block d-lg-none ml-md-0" ><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+    
+
+    <div class="site-blocks-cover">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          <div class="col-md-12" style="position: relative;" data-aos="fade-up">
+            
+            <img src="images/landing_1.png" alt="Image" style="opacity: 0.9" class="img-fluid img-absolute mt-5">
+
+            <div class="row mb-4">
+              <div class="col-lg-6 mr-auto">
+                <h1>Kickstart Your Admission</h1>
+                <div class="col-lg-8 pl-0 mr-auto">
+                  <p class="mb-5">Find the colleges that fit you best, send multiple admissions in one click, and get admitted to your dream school.</p>
+                    </div>
+                <div>
+                    <a href="#start"><button onClick="amplitude.getInstance().logEvent('learn-more');">Learn More 😏</button></a>
+                    <br>
+                    <a href="tel:13239772810" target="_blank"><button  class="mt-3" style="background: white; color: #ee786e">Call Us: 323-977-2810</button></a>
+                </div>
+              </div>   
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+
+    
+    <div class="feature-big" id="start">
+      <div class="container">
+        <div class="row mb-5 site-section border-bottom" data-aos="fade-up">
+          <div class="col-lg-7 mt-md-5">
+            <img src="images/1-select.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2 class="text-black">Find colleges that fit you best 🏛️</h2>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li>Pick your favorites from any of 5873 U.S. colleges</li>
+              <li>Or ask us to find ones that fit you best</li>
+              <li>We’ll help you craft tailored admission essays for each college</li>
+            </ul>
+                <div>
+                    <a href="#pricing"><button>Find 'em! 👍</button></a>
+                </div>
+          </div>
+        </div>
+
+        <div class="mt-5 row mb-5 site-section" data-aos="fade-up">
+          <div class="col-lg-7 order-1 order-lg-2 mt-md-5">
+           <img src="images/2-blast.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
+            <h2 class="text-black">Apply to multiple colleges at once ✉️</h2>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li>Save hours if not days by sending all your college application at a click of a button</li>
+              <li>No time is spent figuring out requirements and filling endless forms</li>
+              <li>We're taking stress out of the equation</li>             
+            </ul>
+                <div>
+                    <a href="#pricing"><button>Send 'em! 🚀</button></a>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="feature-big">
+      <div class="container" data-aos="fade-up">
+        <div class="row mb-5 site-section border-bottom">
+          <div class="col-lg-7">
+            <img src="images/3-getaccepted.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2 class="text-black">Get into your dream school 🏫</h2>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li>Start selecting colleges out of those that say yes, not vice versa!</li>
+              <li>College responses are automatically forwarded to your email</li>
+              <li>Note: We’re not affiliated with any colleges or admission officers so we can not guarantee your admission</li>
+            </ul>
+                <div>
+                    <a href="#pricing"><button>Yee-haw! 🎓</button></a>
+                </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+    <div class="site-section bg-light" id="about-section">
+      <div class="container" data-aos="fade-up">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Our mission...</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6">
+            <img src="images/mission.png" alt="Image" class="img-fluid mb-5 mb-lg-0 rounded shadow">
+          </div>
+          <div class="col-lg-5 ml-auto pl-lg-5">
+            <h2 class="text-black mb-4">...is to help you with admission.</h2>
+            <p class="mb-4">All of us went through the college admission process and for none it was either easy or enjoyable, so we figured there's something we can change. With the power of machine learning and automation, we built a system that allows you to find colleges that match you best and send admissions with a click of a button. With that, we hope to turn admission process from a nightmare to a walk in the park.</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+
+    <div class="site-section testimonial-wrap" id="testimonials-section" data-aos="fade-up">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Testimonials</h2>
+          </div>
+        </div>
+      </div>
+      <div class="slide-one-item home-slider owl-carousel">
+          
+                    <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/person_4.jpeg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;It's not cheap, but it does the job. More applications = more chances. And I really wanted to choose out of many options so it worked for me.&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Yeo Kim</strong></p>
+
+              
+            </div>
+           
+          </div>
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/person_3.jpeg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;These guys are freakin amazing, especially when you're running out of time. I was a bit scared at first because of all the scandals and stuff, but it turned out to be legit&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Craig Riggs</strong></p>
+
+              
+            </div>
+          </div>
+          <div>
+            <div class="testimonial">
+              
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/person_2.jpeg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+
+              <blockquote class="mb-3">
+                <p>&ldquo;Service's good. I perfected my application and got into my dream school. I totally recommend it to anyone who is planning to apply to US colleges.&rdquo;</p>
+              </blockquote>
+              
+              <p class="text-black"><strong>Roberta Aguilar</strong></p>
+              
+              
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/person_1.jpeg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;First, I didn't know which colleges to apply to, and second, I was very frustrated with the common app, and you guys were my guides, thank you!&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Cheryl McDonald</strong></p>
+
+              
+            </div>
+
+          </div>
+
+        </div>
+    </div>
+
+    
+
+<div class="site-section bg-bright" id="pricing">
+      <div class="container" data-aos="fade-up">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3 mt-5 white-text">Let's Work Together</h2>
+              <p class="white-text">Our representatives are available 24/7 ready to help with your admission</p>
+          </div>
+        </div>
+          
+          <div class="row justify-content-center">
+              <div class="col-lg-7 mb-5 text-center">
+                  <a href="tel:13239772810" target="_blank"><button  style="background: white; color: #ee786e"><b>323-977-2810</b></button></a>
+              </div>
+<!--
+              <div class="col-lg-7 mb-5 text-center">
+                  <h1 class="white-text mb-5">Call Us</h1>
+                  <a href="tel:13239772810" target="_blank"> <h1 class="white-text"><big><big><big><big>323-977-2810</big></big></big></big></h1></a>
+              </div>
+-->
+            </div>
+      </div>
+    </div>
+  
+      
+    <!--================ About us =================-->
+<section id="about-us" class="py-5">
+	<div class="popular_courses lite_bg py-5" data-aos="fade-up">
+		<div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Our journey so far</h2>
+						<p>Founded by Josh Miller, an admission expert, and Vanessa Brightman, a seasoned machine learning engineer, we helped students from across the world to enroll in U.S. colleges, taking stress out of the equation.</p>
+          </div>
+        </div>
+      </div>
+        <div class="container">
+			<div class="row mb-5">
+				<div class="col-lg-3 col-md-6">
+					<div class="single_course">
+                        <div style="font-size: 50px; color: dimgray" class="text-center">
+                        2017
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            Year founded
+                        </div>
+					</div>
+				</div>
+                <div class="col-lg-3 col-md-6">
+					<div class="single_course">
+                        <div style="font-size: 50px; color: dimgray" class="text-center">
+                        7
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            Full time employees
+                        </div>
+					</div>
+				</div>
+                <div class="col-lg-3 col-md-6">
+					<div class="single_course">
+                        <div style="font-size: 50px; color: dimgray" class="text-center">
+                        1500+
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            Happy customers
+                        </div>
+					</div>
+				</div>
+                <div class="col-lg-3 col-md-6">
+					<div class="single_course">
+                        <div style="font-size: 50px; color: dimgray" class="text-center">
+                        5,873
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            Colleges in the database
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+      
+    <div class="site-section bg-light" id="about-section">
+      <div class="container" data-aos="fade-up">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Why Admission Buddy?</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-4">
+            <h2 class="text-black mb-4">Capability</h2>
+            <p class="mb-4">Applying to multiple colleges is a tedious and time-consuming task that can go for weeks. Figuring out how each college’s application site works is an achievement itself. With Admission Buddy, you can blast your application to as many colleges as you want, increasing your overall chances and allowing for a bigger choice when it comes to making your final decision.</p>
+          </div>
+          <div class="col-lg-4">
+            <h2 class="text-black mb-4">Expertise</h2>
+            <p class="mb-4">You only apply to college once.<br>
+Why would you ace a skill that is used only once per lifetime?<br>
+That question bugged our founding team for quite a while. As a result, we decided to create a tool that allows to completely skip figuring out all the ins and outs of the admission process and allowing you to focus on more important things like your SAT.
+Our admission experts are trained to critically review your applications, find errors in your data and essays, and fix it on the fly (if possible without input from your side).
+Just imagine the opportunity cost of making a mistake in your application and not getting into your dream university? According to recent data, 1 of every 8 rejected applications was dumped because of a mistake, and the disappointment in those cases, couldn’t be properly described.</p>
+          </div>
+          <div class="col-lg-4">
+            <h2 class="text-black mb-4">Pricing</h2>
+            <p class="mb-4">Admission Counseling services start at thousands of dollars per consultation, leaving 99% of enrollees to figure out admission for themselves. And sometimes you still have to apply yourself!
+At Admission Buddy, we automated and streamlined the process of proofreading and submitting applications, which allowed us to make the product available to a much wider audience.</p>
+          </div>
+            <div class="col-lg-4 offset-4 mt-5">
+            
+<!--
+            <div class="mt-5">
+                    <a href="#pricing"><button>Okay, I'm convinced</button></a>
+                </div>
+-->
+          </div>
+            
+        </div>
+        <div class="row justify-content-center">
+              <div class="col-lg-7 mb-5 text-center">
+                  <a href="#pricing"><button>Okay, I'm convinced</button></a>
+              </div>
+            </div>
+          
+      </div>
+    </div>  
+      
+    <div class="site-section bg-bright" id="contact-section">
+      <div class="container" data-aos="fade-up">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3 mt-5 white-text">Still have questions?</h2>
+          </div>
+        </div>
+          
+          <div class="row justify-content-center">
+              <div class="col-lg-7 mb-5 text-center">
+                  <a href="https://m.me/admiss.buddy" target="_blank"><button  style="background: white; color: #ee786e"><b>Message Us</b></button></a>
+              </div>
+            </div>
+      </div>
+    </div>  
+
+    <div class="footer py-5 border-top text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="mb-0">
+                Copyright &copy; <script async>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fas fa-hand-paper" aria-hidden="true"></i> by R&D dept. <a href="terms-and-conditions.html">Terms and conditions</a> apply
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+     
+    
+  </div> <!-- .site-wrap -->
+
+<!--  <script type="javascript">amplitude.getInstance().logEvent('HELL0-CHANGE-THIS-BACK');</script>-->
+<!--      <script>amplitude.getInstance().logEvent(window.location.href.split('?')[0]);</script>-->
+      <script>amplitude.getInstance().logEvent(window.location.href.split('?')[0].replace('https://', ''));</script>
+      
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
